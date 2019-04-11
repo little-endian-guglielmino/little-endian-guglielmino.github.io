@@ -358,7 +358,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-templates-index-page-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-templates-about-page-js","jsonName":"about-f34","path":"/about/"},{"componentChunkName":"component---src-pages-contact-index-js","jsonName":"contact-26a","path":"/contact/"},{"componentChunkName":"component---src-pages-contact-examples-js","jsonName":"contact-examples-142","path":"/contact/examples/"},{"componentChunkName":"component---src-pages-contact-file-upload-js","jsonName":"contact-file-upload-b1a","path":"/contact/file-upload/"},{"componentChunkName":"component---src-pages-contact-thanks-js","jsonName":"contact-thanks-367","path":"/contact/thanks/"},{"componentChunkName":"component---src-pages-tags-index-js","jsonName":"tags-275","path":"/tags/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-brewing-d36","path":"/tags/brewing/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-chemex-13a","path":"/tags/chemex/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-flavor-980","path":"/tags/flavor/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-green-beans-dce","path":"/tags/green-beans/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-jamaica-ed8","path":"/tags/jamaica/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-tasting-3e1","path":"/tags/tasting/"},{"componentChunkName":"component---src-templates-tech-page-js","jsonName":"technologies-427","path":"/technologies/"},{"componentChunkName":"component---src-pages-usecases-index-js","jsonName":"usecases-727","path":"/usecases/"},{"componentChunkName":"component---src-templates-use-case-js","jsonName":"usecases-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-045","path":"/usecases/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/"},{"componentChunkName":"component---src-templates-use-case-js","jsonName":"usecases-2017-01-04-a-beginners-guide-to-brewing-with-chemex-c6c","path":"/usecases/2017-01-04-a-beginners-guide-to-brewing-with-chemex/"},{"componentChunkName":"component---src-templates-use-case-js","jsonName":"usecases-2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week-43a","path":"/usecases/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","about-f34":"291/path---about-f-34-4c2-xcUWNWUkEsNL469ikyQ5Z1xVDU","contact-26a":"279/path---contact-26-a-cd9-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-examples-142":"630/path---contact-examples-142-f5a-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-file-upload-b1a":"891/path---contact-file-upload-b-1-a-f7d-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-thanks-367":"407/path---contact-thanks-367-a2f-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"508/path---index-6a9-SoUAmDUSuMSgTjaBHhVe7EYIHro","sq--src-components-blog-roll-js":1748157918,"sq--src-components-site-metadata-js":1877296825,"tags-275":"201/path---tags-275-fc0-ADs5dsJPMpqtfkEiQWPfC0Sk9U","tags-brewing-d36":"373/path---tags-brewing-d-36-21b-uqq1ZMsnevPY4WMUaM6G9Xe9rdk","tags-chemex-13a":"102/path---tags-chemex-13-a-177-YM0tzsxLTNymvwcdQB9LERsFqjc","tags-flavor-980":"153/path---tags-flavor-980-19d-B9DzdMi1j9goCIULnjJnJnWfrxU","tags-green-beans-dce":"714/path---tags-green-beans-dce-340-ho9s56xjqFXPz6fD6iaQwCptk","tags-jamaica-ed8":"932/path---tags-jamaica-ed-8-e41-NMvzLSs2l8IOvY5JzeBBC4zwE","tags-tasting-3e1":"191/path---tags-tasting-3-e-1-687-NoDmzicSZF1JJ43fSReqzzFREc","technologies-427":"86/path---technologies-427-297-g4m89lPOtLLI8pKi3IoqrVrwRSQ","usecases-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-045":"761/path---usecases-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-045-4f2-7DFprBauUc4SyOmS0ZVJ6EWbzpA","usecases-2017-01-04-a-beginners-guide-to-brewing-with-chemex-c6c":"813/path---usecases-2017-01-04-a-beginners-guide-to-brewing-with-chemex-c-6-c-975-A6hZ55309F8sHtM8J2oJ66zik","usecases-2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week-43a":"514/path---usecases-2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week-43-a-8e7-rxtKb2JSSrhH2fWcXxVJtLyZmOg","usecases-727":"106/path---usecases-727-70b-0SUcWyAf8ecbYDsMhQkEfPzV8"}};
+module.exports = {"pages":[{"componentChunkName":"component---src-templates-index-page-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-templates-about-page-js","jsonName":"about-f34","path":"/about/"},{"componentChunkName":"component---src-pages-contact-index-js","jsonName":"contact-26a","path":"/contact/"},{"componentChunkName":"component---src-pages-contact-examples-js","jsonName":"contact-examples-142","path":"/contact/examples/"},{"componentChunkName":"component---src-pages-contact-file-upload-js","jsonName":"contact-file-upload-b1a","path":"/contact/file-upload/"},{"componentChunkName":"component---src-pages-contact-thanks-js","jsonName":"contact-thanks-367","path":"/contact/thanks/"},{"componentChunkName":"component---src-pages-projects-index-js","jsonName":"projects-9e9","path":"/projects/"},{"componentChunkName":"component---src-templates-project-js","jsonName":"projects-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-3ce","path":"/projects/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/"},{"componentChunkName":"component---src-templates-project-js","jsonName":"projects-2018-09-20-smartlighting-solution-d5d","path":"/projects/2018-09-20-smartlighting-solution/"},{"componentChunkName":"component---src-templates-project-js","jsonName":"projects-2019-03-13-modbus-mqtt-gateway-218","path":"/projects/2019-03-13-modbus-mqtt-gateway/"},{"componentChunkName":"component---src-pages-tags-index-js","jsonName":"tags-275","path":"/tags/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-docker-fd3","path":"/tags/docker/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-esp-32-89f","path":"/tags/esp-32/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-flavor-980","path":"/tags/flavor/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-io-t-7df","path":"/tags/io-t/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-mod-bus-666","path":"/tags/mod-bus/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-mqtt-932","path":"/tags/mqtt/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-node-js-10a","path":"/tags/node-js/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-python-322","path":"/tags/python/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-react-490","path":"/tags/react/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-redux-c18","path":"/tags/redux/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-tasting-3e1","path":"/tags/tasting/"},{"componentChunkName":"component---src-templates-tech-page-js","jsonName":"technologies-427","path":"/technologies/"},{"componentChunkName":"component---src-pages-work-index-js","jsonName":"work-fa6","path":"/work/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","about-f34":"905/path---about-f-34-4c2-Ylnufb7AzM0KlVixeIGuuhMk","contact-26a":"279/path---contact-26-a-cd9-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-examples-142":"630/path---contact-examples-142-f5a-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-file-upload-b1a":"891/path---contact-file-upload-b-1-a-f7d-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-thanks-367":"407/path---contact-thanks-367-a2f-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"369/path---index-6a9-O1BC9Hd01dWFpWU70wAEGvNuj0","projects-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-3ce":"590/path---projects-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-3-ce-db6-IHXrx5wMG2MpxhlVnBB3TmkJgHQ","projects-2018-09-20-smartlighting-solution-d5d":"763/path---projects-2018-09-20-smartlighting-solution-d-5-d-878-OioNiLTes1mcA06rbC23BzwVU8","projects-2019-03-13-modbus-mqtt-gateway-218":"688/path---projects-2019-03-13-modbus-mqtt-gateway-218-01f-hhr5BNofnlHNgqCDSE8oP34FnI","projects-9e9":"175/path---projects-9-e-9-957-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-blog-roll-js":1364106975,"sq--src-components-site-metadata-js":1877296825,"tags-275":"666/path---tags-275-fc0-xIdrbXTv9sVxCvJJMeAJ9fXU3Tk","tags-docker-fd3":"984/path---tags-docker-fd-3-bbf-Vtv0Nn05mNN2AIlz2JPpBrSnM","tags-esp-32-89f":"15/path---tags-esp-32-89-f-03b-L5qmdwAJZ3yYd3lvte1LUDlaw","tags-flavor-980":"155/path---tags-flavor-980-19d-Ii2DecMJOv2Y04M2P9xOUHB2kSg","tags-io-t-7df":"210/path---tags-io-t-7-df-37e-XxyRiFV1q0MhAU1Z6QdnAQI7Pw4","tags-mod-bus-666":"879/path---tags-mod-bus-666-0e9-nXMBKfln03VvJIds63np9eH2M4","tags-mqtt-932":"601/path---tags-mqtt-932-ccb-Qe09M6Ph00wlSyffriJKzL1HIsY","tags-node-js-10a":"581/path---tags-node-js-10-a-b29-Dpl51KQFuTFSOxmnqJBMC3U3fM","tags-python-322":"951/path---tags-python-322-e5f-7LTr8cqrtxU516BucjlnJ3vHTbQ","tags-react-490":"593/path---tags-react-490-1eb-BAOKRz0H22bjafvejsODotzqe8","tags-redux-c18":"230/path---tags-redux-c-18-cba-nmm188B2WDrmbV1Ple0Dy2j1gaM","tags-tasting-3e1":"552/path---tags-tasting-3-e-1-687-3aBk4KSgjLYzHXpJ49lUfQ8OM","technologies-427":"47/path---technologies-427-297-NECveOQ1Erj5GWYulMSOJUWqSao","work-fa6":"892/path---work-fa-6-fb4-0SUcWyAf8ecbYDsMhQkEfPzV8"}};
 
 /***/ }),
 
@@ -976,9 +976,9 @@ var preferDefault = function preferDefault(m) {
 };
 
 exports.components = {
-  "component---src-templates-index-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/index-page.js */ "./src/templates/index-page.js"))),
   "component---src-templates-about-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/about-page.js */ "./src/templates/about-page.js"))),
-  "component---src-templates-use-case-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/use-case.js */ "./src/templates/use-case.js"))),
+  "component---src-templates-index-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/index-page.js */ "./src/templates/index-page.js"))),
+  "component---src-templates-project-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/project.js */ "./src/templates/project.js"))),
   "component---src-templates-tech-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/tech-page.js */ "./src/templates/tech-page.js"))),
   "component---src-templates-tags-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/tags.js */ "./src/templates/tags.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
@@ -986,8 +986,9 @@ exports.components = {
   "component---src-pages-contact-file-upload-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/contact/file-upload.js */ "./src/pages/contact/file-upload.js"))),
   "component---src-pages-contact-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/contact/index.js */ "./src/pages/contact/index.js"))),
   "component---src-pages-contact-thanks-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/contact/thanks.js */ "./src/pages/contact/thanks.js"))),
+  "component---src-pages-projects-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/projects/index.js */ "./src/pages/projects/index.js"))),
   "component---src-pages-tags-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/tags/index.js */ "./src/pages/tags/index.js"))),
-  "component---src-pages-usecases-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/usecases/index.js */ "./src/pages/usecases/index.js")))
+  "component---src-pages-work-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/work/index.js */ "./src/pages/work/index.js")))
 };
 
 /***/ }),
@@ -2323,14 +2324,14 @@ module.exports = v4;
 
 /***/ }),
 
-/***/ "./public/static/d/1748157918.json":
+/***/ "./public/static/d/1364106975.json":
 /*!*****************************************!*\
-  !*** ./public/static/d/1748157918.json ***!
+  !*** ./public/static/d/1364106975.json ***!
   \*****************************************/
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = {"data":{"allMarkdownRemark":{"edges":[{"node":{"excerpt":"We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick. Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas…","id":"17aed636-f99e-5e04-a9b3-ec37da8229ea","fields":{"slug":"/usecases/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/"},"frontmatter":{"title":"Just in: small batch of Jamaican Blue Mountain in store next week","templateKey":"use-case","date":"January 04, 2017"}}},{"node":{"excerpt":"This week we’ll  take  a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts. In 1958, designers at the  Illinois Institute of Technology  said that the Chemex…","id":"c99a3cd2-dc44-5b59-a994-6da781254f0a","fields":{"slug":"/usecases/2017-01-04-a-beginners-guide-to-brewing-with-chemex/"},"frontmatter":{"title":"A beginners’ guide to brewing with Chemex","templateKey":"use-case","date":"January 04, 2017"}}},{"node":{"excerpt":"The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors. While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors…","id":"66b560d6-9dca-5129-87b2-ccaeec52eadb","fields":{"slug":"/usecases/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/"},"frontmatter":{"title":"Making sense of the SCAA’s new Flavor Wheel","templateKey":"use-case","date":"December 17, 2016"}}}]}}};
+module.exports = {"data":{"allMarkdownRemark":{"edges":[{"node":{"excerpt":" The Challenge Industry is made of costly devices, often outdated in regards to interacting with cloud, web and mobile technologies. There is a huge value in connecting factory data with the external world and this is a topic where LittleEndian can give big support. The Solution This project is an example of cloud integration for devices, meant to talk in closed networks inside the factory. For…","id":"44784b0f-05e9-5161-8c20-5b252f3f5fd5","fields":{"slug":"/projects/2019-03-13-modbus-mqtt-gateway/"},"frontmatter":{"title":"ModBus to MQTT Gateway","templateKey":"project","date":"March 13, 2019"}}},{"node":{"excerpt":"The Challenge LittleEndian was engaged to create a solution creating a device and a platform to monitor and control lighitng system. The solution is an enanchement for the lamps made by the client, those lamps are sold to offices, malls and any other indoor building. Problems solved by introducing a level of smartness to those lamps are: alerting on failure compsuntiong monitoring remote control…","id":"5f62e9bf-8322-5783-9f5c-183e87c4f286","fields":{"slug":"/projects/2018-09-20-smartlighting-solution/"},"frontmatter":{"title":"Smart lighting solution","templateKey":"project","date":"September 20, 2018"}}},{"node":{"excerpt":"The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors. While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors…","id":"4aafd0b5-7e62-53a2-9cfb-eadb820fb371","fields":{"slug":"/projects/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/"},"frontmatter":{"title":"Making sense of the SCAA’s new Flavor Wheel","templateKey":"project","date":"December 17, 2016"}}}]}}};
 
 /***/ }),
 
@@ -2356,8 +2357,8 @@ module.exports = {"data":{"site":{"siteMetadata":{"title":"Little Endian - Compa
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
 /* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _public_static_d_1748157918_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../public/static/d/1748157918.json */ "./public/static/d/1748157918.json");
-var _public_static_d_1748157918_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/d/1748157918.json */ "./public/static/d/1748157918.json", 1);
+/* harmony import */ var _public_static_d_1364106975_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../public/static/d/1364106975.json */ "./public/static/d/1364106975.json");
+var _public_static_d_1364106975_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/d/1364106975.json */ "./public/static/d/1364106975.json", 1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
@@ -2416,14 +2417,14 @@ BlogRoll.propTypes = {
 };
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__["StaticQuery"], {
-    query: "1748157918",
+    query: "1364106975",
     render: function render(data, count) {
       return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(BlogRoll, {
         data: data,
         count: count
       });
     },
-    data: _public_static_d_1748157918_json__WEBPACK_IMPORTED_MODULE_1__
+    data: _public_static_d_1364106975_json__WEBPACK_IMPORTED_MODULE_1__
   });
 });
 
@@ -2612,8 +2613,8 @@ function (_React$Component) {
       className: "menu-list"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "navbar-item",
-      to: "/use-cases"
-    }, "Use Cases")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: "/projects"
+    }, "Projects")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "navbar-item",
       to: "/contact"
     }, "Contact"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -2846,8 +2847,8 @@ function (_React$Component) {
       to: "/technologies"
     }, "Technologies"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "navbar-item",
-      to: "/usecases"
-    }, "Use Cases"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: "/projects"
+    }, "Projects"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "navbar-item",
       to: "/contact"
     }, "Contact")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -2933,59 +2934,6 @@ PreviewCompatibleImage.propTypes = {
   }).isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (PreviewCompatibleImage);
-
-/***/ }),
-
-/***/ "./src/components/Pricing.js":
-/*!***********************************!*\
-  !*** ./src/components/Pricing.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-var Pricing = function Pricing(_ref) {
-  var data = _ref.data;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns"
-  }, data.map(function (price) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      key: price.plan,
-      className: "column"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-      className: "section"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-      className: "has-text-centered has-text-weight-semibold"
-    }, price.plan), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-      className: "is-size-1 has-text-weight-bold has-text-primary has-text-centered"
-    }, "$", price.price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "has-text-weight-semibold"
-    }, price.description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, price.items.map(function (item) {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        key: item,
-        className: "is-size-5"
-      }, item);
-    }))));
-  }));
-};
-
-Pricing.propTypes = {
-  data: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
-    plan: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    price: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number]),
-    description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    items: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array
-  }))
-};
-/* harmony default export */ __webpack_exports__["default"] = (Pricing);
 
 /***/ }),
 
@@ -3538,6 +3486,67 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/pages/projects/index.js":
+/*!*************************************!*\
+  !*** ./src/pages/projects/index.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BlogIndexPage; });
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Layout */ "./src/components/Layout.js");
+/* harmony import */ var _components_BlogRoll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/BlogRoll */ "./src/components/BlogRoll.js");
+
+
+
+
+
+var BlogIndexPage =
+/*#__PURE__*/
+function (_React$Component) {
+  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0___default()(BlogIndexPage, _React$Component);
+
+  function BlogIndexPage() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+
+  var _proto = BlogIndexPage.prototype;
+
+  _proto.render = function render() {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "full-width-image-container margin-top-0",
+      style: {
+        backgroundImage: "url('/img/projects-index.jpg')"
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+      className: "has-text-weight-bold is-size-1",
+      style: {
+        boxShadow: '0.5rem 0 0 , -0.5rem 0 0 ',
+        color: '#e85100',
+        padding: '1rem'
+      }
+    }, "Projects")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+      className: "section"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "container"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "content"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_BlogRoll__WEBPACK_IMPORTED_MODULE_3__["default"], null)))));
+  };
+
+  return BlogIndexPage;
+}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
+
+
+
+/***/ }),
+
 /***/ "./src/pages/tags/index.js":
 /*!*********************************!*\
   !*** ./src/pages/tags/index.js ***!
@@ -3597,63 +3606,124 @@ var tagPageQuery = "3682505313";
 
 /***/ }),
 
-/***/ "./src/pages/usecases/index.js":
-/*!*************************************!*\
-  !*** ./src/pages/usecases/index.js ***!
-  \*************************************/
+/***/ "./src/pages/work/index.js":
+/*!*********************************!*\
+  !*** ./src/pages/work/index.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BlogIndexPage; });
-/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
-/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Layout */ "./src/components/Layout.js");
-/* harmony import */ var _components_BlogRoll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/BlogRoll */ "./src/components/BlogRoll.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
+/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.function.name */ "core-js/modules/es6.function.name");
+/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var gatsby_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby-link */ "./node_modules/gatsby-link/index.js");
+/* harmony import */ var gatsby_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(gatsby_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Layout */ "./src/components/Layout.js");
 
 
 
 
 
-var BlogIndexPage =
+
+var Index =
 /*#__PURE__*/
 function (_React$Component) {
-  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0___default()(BlogIndexPage, _React$Component);
+  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default()(Index, _React$Component);
 
-  function BlogIndexPage() {
-    return _React$Component.apply(this, arguments) || this;
+  function Index(props) {
+    var _this;
+
+    _this = _React$Component.call(this, props) || this;
+
+    _this.handleChange = function (e) {
+      var _this$setState;
+
+      _this.setState((_this$setState = {}, _this$setState[e.target.name] = e.target.value, _this$setState));
+    };
+
+    _this.state = {
+      isValidated: false
+    };
+    return _this;
   }
 
-  var _proto = BlogIndexPage.prototype;
+  var _proto = Index.prototype;
 
   _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "full-width-image-container margin-top-0",
-      style: {
-        backgroundImage: "url('/img/blog-index.jpg')"
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-      className: "has-text-weight-bold is-size-1",
-      style: {
-        boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-        backgroundColor: '#f40',
-        color: 'white',
-        padding: '1rem'
-      }
-    }, "Latest Stories")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
       className: "section"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
       className: "container"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
       className: "content"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_BlogRoll__WEBPACK_IMPORTED_MODULE_3__["default"], null)))));
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, "Work with us"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form", {
+      name: "workwithus",
+      method: "post",
+      action: "https://mailthis.to/LittleEndian",
+      encType: "multipart/form-data"
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
+      type: "hidden",
+      name: "form-name",
+      value: "contact"
+    }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      hidden: true
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", null, "Don\u2019t fill this out:", ' ', react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
+      name: "bot-field",
+      onChange: this.handleChange
+    }))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: "field"
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", {
+      className: "label",
+      htmlFor: 'name'
+    }, "Your name"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: "control"
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
+      className: "input",
+      type: 'text',
+      name: 'name',
+      id: 'name',
+      required: true,
+      placeholder: "Your name"
+    }))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: "field"
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", {
+      className: "label",
+      htmlFor: 'email'
+    }, "Email"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: "control"
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
+      className: "input",
+      type: "email",
+      name: "_replyto",
+      placeholder: "Your email"
+    }))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: "field"
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("label", {
+      className: "label",
+      htmlFor: 'message'
+    }, "Message"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: "control"
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("textarea", {
+      className: "textarea",
+      name: "message",
+      placeholder: "Enter your message here"
+    }))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: "field"
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
+      className: "button is-link",
+      type: "submit",
+      value: "Send"
+    }, "Send")))))));
   };
 
-  return BlogIndexPage;
-}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
+  return Index;
+}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
 
 
 
@@ -3755,7 +3825,6 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
   var image = _ref.image,
       title = _ref.title,
       heading = _ref.heading,
-      subheading = _ref.subheading,
       mainpitch = _ref.mainpitch,
       description = _ref.description,
       intro = _ref.intro;
@@ -3827,7 +3896,6 @@ IndexPageTemplate.propTypes = {
   image: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
   title: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   heading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  subheading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   mainpitch: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
   description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
   intro: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
@@ -3842,7 +3910,6 @@ var IndexPage = function IndexPage(_ref2) {
     image: frontmatter.image,
     title: frontmatter.title,
     heading: frontmatter.heading,
-    subheading: frontmatter.subheading,
     mainpitch: frontmatter.mainpitch,
     description: frontmatter.description,
     intro: frontmatter.intro
@@ -3857,7 +3924,106 @@ IndexPage.propTypes = {
   })
 };
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
-var pageQuery = "4066978147";
+var pageQuery = "3141585680";
+
+/***/ }),
+
+/***/ "./src/templates/project.js":
+/*!**********************************!*\
+  !*** ./src/templates/project.js ***!
+  \**********************************/
+/*! exports provided: BlogPostTemplate, default, pageQuery */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogPostTemplate", function() { return BlogPostTemplate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageQuery", function() { return pageQuery; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "lodash");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-helmet */ "react-helmet");
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
+/* harmony import */ var _components_Content__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Content */ "./src/components/Content.js");
+
+
+
+
+
+
+
+var BlogPostTemplate = function BlogPostTemplate(_ref) {
+  var content = _ref.content,
+      contentComponent = _ref.contentComponent,
+      description = _ref.description,
+      tags = _ref.tags,
+      title = _ref.title,
+      helmet = _ref.helmet;
+  var PostContent = contentComponent || _components_Content__WEBPACK_IMPORTED_MODULE_6__["default"];
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "section"
+  }, helmet || '', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container content"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-10 is-offset-1"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "title is-size-2 has-text-weight-bold is-bold-light"
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostContent, {
+    content: content
+  }), tags && tags.length ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      marginTop: "4rem"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Tags"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "taglist"
+  }, tags.map(function (tag) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      key: tag + "tag"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+      to: "/tags/" + Object(lodash__WEBPACK_IMPORTED_MODULE_2__["kebabCase"])(tag) + "/"
+    }, "#", tag));
+  }))) : null))));
+};
+BlogPostTemplate.propTypes = {
+  content: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.node.isRequired,
+  contentComponent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+  description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  title: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  helmet: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object
+};
+
+var BlogPost = function BlogPost(_ref2) {
+  var data = _ref2.data;
+  var post = data.markdownRemark;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlogPostTemplate, {
+    content: post.html,
+    contentComponent: _components_Content__WEBPACK_IMPORTED_MODULE_6__["HTMLContent"],
+    description: post.frontmatter.description,
+    helmet: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      titleTemplate: "%s | Blog"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "" + post.frontmatter.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+      name: "description",
+      content: "" + post.frontmatter.description
+    })),
+    tags: post.frontmatter.tags,
+    title: post.frontmatter.title
+  }));
+};
+
+BlogPost.propTypes = {
+  data: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+    markdownRemark: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object
+  })
+};
+/* harmony default export */ __webpack_exports__["default"] = (BlogPost);
+var pageQuery = "1562462377";
 
 /***/ }),
 
@@ -3959,9 +4125,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 /* harmony import */ var _components_Features__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Features */ "./src/components/Features.js");
 /* harmony import */ var _components_Testimonials__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Testimonials */ "./src/components/Testimonials.js");
-/* harmony import */ var _components_Pricing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Pricing */ "./src/components/Pricing.js");
-/* harmony import */ var _components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/PreviewCompatibleImage */ "./src/components/PreviewCompatibleImage.js");
-
+/* harmony import */ var _components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/PreviewCompatibleImage */ "./src/components/PreviewCompatibleImage.js");
 
 
 
@@ -3976,8 +4140,7 @@ var ProductPageTemplate = function ProductPageTemplate(_ref) {
       intro = _ref.intro,
       main = _ref.main,
       testimonials = _ref.testimonials,
-      fullImage = _ref.fullImage,
-      pricing = _ref.pricing;
+      fullImage = _ref.fullImage;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -4009,43 +4172,8 @@ var ProductPageTemplate = function ProductPageTemplate(_ref) {
     className: "column is-7"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "has-text-weight-semibold is-size-3"
-  }, main.heading), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, main.description))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "tile is-ancestor"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "tile is-vertical"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "tile"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "tile is-parent is-vertical"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-    className: "tile is-child"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    imageInfo: main.image1
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "tile is-parent"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-    className: "tile is-child"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    imageInfo: main.image2
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "tile is-parent"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-    className: "tile is-child"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    imageInfo: main.image3
-  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Testimonials__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, main.heading), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, main.description))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Testimonials__WEBPACK_IMPORTED_MODULE_4__["default"], {
     testimonials: testimonials
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "full-width-image-container",
-    style: {
-      backgroundImage: "url(" + (fullImage.childImageSharp ? fullImage.childImageSharp.fluid.src : fullImage) + ")"
-    }
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "has-text-weight-semibold is-size-2"
-  }, pricing.heading), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "is-size-5"
-  }, pricing.description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Pricing__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    data: pricing.plans
   })))))));
 };
 ProductPageTemplate.propTypes = {
@@ -4064,12 +4192,7 @@ ProductPageTemplate.propTypes = {
     image3: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string])
   }),
   testimonials: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array,
-  fullImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
-  pricing: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
-    heading: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-    plans: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.array
-  })
+  fullImage: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string])
 };
 
 var ProductPage = function ProductPage(_ref2) {
@@ -4083,8 +4206,7 @@ var ProductPage = function ProductPage(_ref2) {
     intro: frontmatter.intro,
     main: frontmatter.main,
     testimonials: frontmatter.testimonials,
-    fullImage: frontmatter.full_image,
-    pricing: frontmatter.pricing
+    fullImage: frontmatter.full_image
   }));
 };
 
@@ -4096,106 +4218,7 @@ ProductPage.propTypes = {
   })
 };
 /* harmony default export */ __webpack_exports__["default"] = (ProductPage);
-var productPageQuery = "2855502059";
-
-/***/ }),
-
-/***/ "./src/templates/use-case.js":
-/*!***********************************!*\
-  !*** ./src/templates/use-case.js ***!
-  \***********************************/
-/*! exports provided: BlogPostTemplate, default, pageQuery */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogPostTemplate", function() { return BlogPostTemplate; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageQuery", function() { return pageQuery; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "lodash");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-helmet */ "react-helmet");
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
-/* harmony import */ var _components_Content__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Content */ "./src/components/Content.js");
-
-
-
-
-
-
-
-var BlogPostTemplate = function BlogPostTemplate(_ref) {
-  var content = _ref.content,
-      contentComponent = _ref.contentComponent,
-      description = _ref.description,
-      tags = _ref.tags,
-      title = _ref.title,
-      helmet = _ref.helmet;
-  var PostContent = contentComponent || _components_Content__WEBPACK_IMPORTED_MODULE_6__["default"];
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "section"
-  }, helmet || '', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-10 is-offset-1"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title is-size-2 has-text-weight-bold is-bold-light"
-  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostContent, {
-    content: content
-  }), tags && tags.length ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      marginTop: "4rem"
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Tags"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "taglist"
-  }, tags.map(function (tag) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      key: tag + "tag"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__["Link"], {
-      to: "/tags/" + Object(lodash__WEBPACK_IMPORTED_MODULE_2__["kebabCase"])(tag) + "/"
-    }, tag));
-  }))) : null))));
-};
-BlogPostTemplate.propTypes = {
-  content: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.node.isRequired,
-  contentComponent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-  description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  title: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  helmet: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object
-};
-
-var BlogPost = function BlogPost(_ref2) {
-  var data = _ref2.data;
-  var post = data.markdownRemark;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BlogPostTemplate, {
-    content: post.html,
-    contentComponent: _components_Content__WEBPACK_IMPORTED_MODULE_6__["HTMLContent"],
-    description: post.frontmatter.description,
-    helmet: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      titleTemplate: "%s | Blog"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "" + post.frontmatter.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-      name: "description",
-      content: "" + post.frontmatter.description
-    })),
-    tags: post.frontmatter.tags,
-    title: post.frontmatter.title
-  }));
-};
-
-BlogPost.propTypes = {
-  data: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
-    markdownRemark: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object
-  })
-};
-/* harmony default export */ __webpack_exports__["default"] = (BlogPost);
-var pageQuery = "1562462377";
+var productPageQuery = "3374029969";
 
 /***/ }),
 
