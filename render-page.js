@@ -976,9 +976,9 @@ var preferDefault = function preferDefault(m) {
 };
 
 exports.components = {
-  "component---src-templates-project-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/project.js */ "./src/templates/project.js"))),
   "component---src-templates-about-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/about-page.js */ "./src/templates/about-page.js"))),
   "component---src-templates-index-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/index-page.js */ "./src/templates/index-page.js"))),
+  "component---src-templates-project-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/project.js */ "./src/templates/project.js"))),
   "component---src-templates-tech-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/tech-page.js */ "./src/templates/tech-page.js"))),
   "component---src-templates-tags-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/tags.js */ "./src/templates/tags.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
