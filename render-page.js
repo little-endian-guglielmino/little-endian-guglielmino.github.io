@@ -358,7 +358,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-templates-index-page-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-templates-about-page-js","jsonName":"about-f34","path":"/about/"},{"componentChunkName":"component---src-pages-contact-index-js","jsonName":"contact-26a","path":"/contact/"},{"componentChunkName":"component---src-pages-contact-examples-js","jsonName":"contact-examples-142","path":"/contact/examples/"},{"componentChunkName":"component---src-pages-contact-file-upload-js","jsonName":"contact-file-upload-b1a","path":"/contact/file-upload/"},{"componentChunkName":"component---src-pages-contact-thanks-js","jsonName":"contact-thanks-367","path":"/contact/thanks/"},{"componentChunkName":"component---src-pages-projects-index-js","jsonName":"projects-9e9","path":"/projects/"},{"componentChunkName":"component---src-templates-project-js","jsonName":"projects-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-3ce","path":"/projects/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/"},{"componentChunkName":"component---src-templates-project-js","jsonName":"projects-2018-09-20-smartlighting-solution-d5d","path":"/projects/2018-09-20-smartlighting-solution/"},{"componentChunkName":"component---src-templates-project-js","jsonName":"projects-2019-03-13-modbus-mqtt-gateway-218","path":"/projects/2019-03-13-modbus-mqtt-gateway/"},{"componentChunkName":"component---src-pages-tags-index-js","jsonName":"tags-275","path":"/tags/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-docker-fd3","path":"/tags/docker/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-esp-32-89f","path":"/tags/esp-32/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-flavor-980","path":"/tags/flavor/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-io-t-7df","path":"/tags/io-t/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-mod-bus-666","path":"/tags/mod-bus/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-mqtt-932","path":"/tags/mqtt/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-node-js-10a","path":"/tags/node-js/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-python-322","path":"/tags/python/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-react-490","path":"/tags/react/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-redux-c18","path":"/tags/redux/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-tasting-3e1","path":"/tags/tasting/"},{"componentChunkName":"component---src-templates-tech-page-js","jsonName":"technologies-427","path":"/technologies/"},{"componentChunkName":"component---src-pages-work-index-js","jsonName":"work-fa6","path":"/work/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","about-f34":"905/path---about-f-34-4c2-Ylnufb7AzM0KlVixeIGuuhMk","contact-26a":"279/path---contact-26-a-cd9-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-examples-142":"630/path---contact-examples-142-f5a-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-file-upload-b1a":"891/path---contact-file-upload-b-1-a-f7d-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-thanks-367":"407/path---contact-thanks-367-a2f-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"369/path---index-6a9-O1BC9Hd01dWFpWU70wAEGvNuj0","projects-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-3ce":"590/path---projects-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-3-ce-db6-IHXrx5wMG2MpxhlVnBB3TmkJgHQ","projects-2018-09-20-smartlighting-solution-d5d":"763/path---projects-2018-09-20-smartlighting-solution-d-5-d-878-OioNiLTes1mcA06rbC23BzwVU8","projects-2019-03-13-modbus-mqtt-gateway-218":"688/path---projects-2019-03-13-modbus-mqtt-gateway-218-01f-hhr5BNofnlHNgqCDSE8oP34FnI","projects-9e9":"175/path---projects-9-e-9-957-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-blog-roll-js":1364106975,"sq--src-components-site-metadata-js":1877296825,"tags-275":"666/path---tags-275-fc0-xIdrbXTv9sVxCvJJMeAJ9fXU3Tk","tags-docker-fd3":"984/path---tags-docker-fd-3-bbf-Vtv0Nn05mNN2AIlz2JPpBrSnM","tags-esp-32-89f":"15/path---tags-esp-32-89-f-03b-L5qmdwAJZ3yYd3lvte1LUDlaw","tags-flavor-980":"155/path---tags-flavor-980-19d-Ii2DecMJOv2Y04M2P9xOUHB2kSg","tags-io-t-7df":"210/path---tags-io-t-7-df-37e-XxyRiFV1q0MhAU1Z6QdnAQI7Pw4","tags-mod-bus-666":"879/path---tags-mod-bus-666-0e9-nXMBKfln03VvJIds63np9eH2M4","tags-mqtt-932":"601/path---tags-mqtt-932-ccb-Qe09M6Ph00wlSyffriJKzL1HIsY","tags-node-js-10a":"581/path---tags-node-js-10-a-b29-Dpl51KQFuTFSOxmnqJBMC3U3fM","tags-python-322":"951/path---tags-python-322-e5f-7LTr8cqrtxU516BucjlnJ3vHTbQ","tags-react-490":"593/path---tags-react-490-1eb-BAOKRz0H22bjafvejsODotzqe8","tags-redux-c18":"230/path---tags-redux-c-18-cba-nmm188B2WDrmbV1Ple0Dy2j1gaM","tags-tasting-3e1":"552/path---tags-tasting-3-e-1-687-3aBk4KSgjLYzHXpJ49lUfQ8OM","technologies-427":"47/path---technologies-427-297-NECveOQ1Erj5GWYulMSOJUWqSao","work-fa6":"892/path---work-fa-6-fb4-0SUcWyAf8ecbYDsMhQkEfPzV8"}};
+module.exports = {"pages":[{"componentChunkName":"component---src-templates-index-page-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-templates-about-page-js","jsonName":"about-f34","path":"/about/"},{"componentChunkName":"component---src-pages-contact-index-js","jsonName":"contact-26a","path":"/contact/"},{"componentChunkName":"component---src-pages-contact-thanks-js","jsonName":"contact-thanks-367","path":"/contact/thanks/"},{"componentChunkName":"component---src-pages-projects-index-js","jsonName":"projects-9e9","path":"/projects/"},{"componentChunkName":"component---src-templates-project-js","jsonName":"projects-2018-07-17-astone-telegram-bot-for-auctions-e36","path":"/projects/2018-07-17-astone-telegram-bot-for-auctions/"},{"componentChunkName":"component---src-templates-project-js","jsonName":"projects-2018-09-20-smartlighting-solution-d5d","path":"/projects/2018-09-20-smartlighting-solution/"},{"componentChunkName":"component---src-templates-project-js","jsonName":"projects-2019-03-13-modbus-mqtt-gateway-218","path":"/projects/2019-03-13-modbus-mqtt-gateway/"},{"componentChunkName":"component---src-pages-tags-index-js","jsonName":"tags-275","path":"/tags/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-bot-20f","path":"/tags/bot/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-docker-fd3","path":"/tags/docker/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-esp-32-89f","path":"/tags/esp-32/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-io-t-7df","path":"/tags/io-t/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-mod-bus-666","path":"/tags/mod-bus/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-mongo-db-3d8","path":"/tags/mongo-db/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-mqtt-932","path":"/tags/mqtt/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-node-js-10a","path":"/tags/node-js/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-python-322","path":"/tags/python/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-react-490","path":"/tags/react/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-redux-c18","path":"/tags/redux/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-telegram-2f9","path":"/tags/telegram/"},{"componentChunkName":"component---src-templates-tech-page-js","jsonName":"technologies-427","path":"/technologies/"},{"componentChunkName":"component---src-pages-work-index-js","jsonName":"work-fa6","path":"/work/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","about-f34":"394/path---about-f-34-4c2-eFRrnTS5P7LDtt0glRCfFfsGNk","contact-26a":"279/path---contact-26-a-cd9-0SUcWyAf8ecbYDsMhQkEfPzV8","contact-thanks-367":"407/path---contact-thanks-367-a2f-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"873/path---index-6a9-R1OyirkKNIRRbFdT8HesDoqpH8","projects-2018-07-17-astone-telegram-bot-for-auctions-e36":"625/path---projects-2018-07-17-astone-telegram-bot-for-auctions-e-36-2c1-f3h2KAZWtu9exp5QSFRvUTTTww","projects-2018-09-20-smartlighting-solution-d5d":"921/path---projects-2018-09-20-smartlighting-solution-d-5-d-878-peNrfp50yJ86uwFhkGNz95RH4bg","projects-2019-03-13-modbus-mqtt-gateway-218":"688/path---projects-2019-03-13-modbus-mqtt-gateway-218-01f-hhr5BNofnlHNgqCDSE8oP34FnI","projects-9e9":"175/path---projects-9-e-9-957-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-blog-roll-js":1364106975,"sq--src-components-site-metadata-js":1877296825,"tags-275":"237/path---tags-275-fc0-BXtmGw30ODC3P5fHLDoHbO86RU","tags-bot-20f":"373/path---tags-bot-20-f-848-jGfa8RLX1AafMxkXUo5znLEiLk","tags-docker-fd3":"984/path---tags-docker-fd-3-bbf-Vtv0Nn05mNN2AIlz2JPpBrSnM","tags-esp-32-89f":"15/path---tags-esp-32-89-f-03b-L5qmdwAJZ3yYd3lvte1LUDlaw","tags-io-t-7df":"210/path---tags-io-t-7-df-37e-XxyRiFV1q0MhAU1Z6QdnAQI7Pw4","tags-mod-bus-666":"879/path---tags-mod-bus-666-0e9-nXMBKfln03VvJIds63np9eH2M4","tags-mongo-db-3d8":"445/path---tags-mongo-db-3-d-8-34d-CZ3FS8m9aHohZJPfg5NpmLnCzM","tags-mqtt-932":"601/path---tags-mqtt-932-ccb-Qe09M6Ph00wlSyffriJKzL1HIsY","tags-node-js-10a":"342/path---tags-node-js-10-a-b29-M5brX6nGJpRdoFP6T2JNALg2GA8","tags-python-322":"951/path---tags-python-322-e5f-7LTr8cqrtxU516BucjlnJ3vHTbQ","tags-react-490":"593/path---tags-react-490-1eb-BAOKRz0H22bjafvejsODotzqe8","tags-redux-c18":"230/path---tags-redux-c-18-cba-nmm188B2WDrmbV1Ple0Dy2j1gaM","tags-telegram-2f9":"117/path---tags-telegram-2-f-9-aa5-wtSegsxv4Nzqb2XgeGZS2MxwjtU","technologies-427":"279/path---technologies-427-297-k31Oq6o6TlC0281ZPemSwApRXoA","work-fa6":"892/path---work-fa-6-fb4-0SUcWyAf8ecbYDsMhQkEfPzV8"}};
 
 /***/ }),
 
@@ -976,14 +976,12 @@ var preferDefault = function preferDefault(m) {
 };
 
 exports.components = {
+  "component---src-templates-project-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/project.js */ "./src/templates/project.js"))),
   "component---src-templates-about-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/about-page.js */ "./src/templates/about-page.js"))),
   "component---src-templates-index-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/index-page.js */ "./src/templates/index-page.js"))),
-  "component---src-templates-project-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/project.js */ "./src/templates/project.js"))),
   "component---src-templates-tech-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/tech-page.js */ "./src/templates/tech-page.js"))),
   "component---src-templates-tags-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/tags.js */ "./src/templates/tags.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
-  "component---src-pages-contact-examples-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/contact/examples.js */ "./src/pages/contact/examples.js"))),
-  "component---src-pages-contact-file-upload-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/contact/file-upload.js */ "./src/pages/contact/file-upload.js"))),
   "component---src-pages-contact-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/contact/index.js */ "./src/pages/contact/index.js"))),
   "component---src-pages-contact-thanks-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/contact/thanks.js */ "./src/pages/contact/thanks.js"))),
   "component---src-pages-projects-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/projects/index.js */ "./src/pages/projects/index.js"))),
@@ -2331,7 +2329,7 @@ module.exports = v4;
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = {"data":{"allMarkdownRemark":{"edges":[{"node":{"excerpt":" The Challenge Industry is made of costly devices, often outdated in regards to interacting with cloud, web and mobile technologies. There is a huge value in connecting factory data with the external world and this is a topic where LittleEndian can give big support. The Solution This project is an example of cloud integration for devices, meant to talk in closed networks inside the factory. For…","id":"44784b0f-05e9-5161-8c20-5b252f3f5fd5","fields":{"slug":"/projects/2019-03-13-modbus-mqtt-gateway/"},"frontmatter":{"title":"ModBus to MQTT Gateway","templateKey":"project","date":"March 13, 2019"}}},{"node":{"excerpt":"The Challenge LittleEndian was engaged to create a solution creating a device and a platform to monitor and control lighitng system. The solution is an enanchement for the lamps made by the client, those lamps are sold to offices, malls and any other indoor building. Problems solved by introducing a level of smartness to those lamps are: alerting on failure compsuntiong monitoring remote control…","id":"5f62e9bf-8322-5783-9f5c-183e87c4f286","fields":{"slug":"/projects/2018-09-20-smartlighting-solution/"},"frontmatter":{"title":"Smart lighting solution","templateKey":"project","date":"September 20, 2018"}}},{"node":{"excerpt":"The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors. While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors…","id":"4aafd0b5-7e62-53a2-9cfb-eadb820fb371","fields":{"slug":"/projects/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/"},"frontmatter":{"title":"Making sense of the SCAA’s new Flavor Wheel","templateKey":"project","date":"December 17, 2016"}}}]}}};
+module.exports = {"data":{"allMarkdownRemark":{"edges":[{"node":{"excerpt":" The Challenge Industry is made of costly devices, often outdated in regards to interacting with cloud, web and mobile technologies. There is a huge value in connecting factory data with the external world and this is a topic where LittleEndian can give big support. The Solution This project is an example of cloud integration for devices, meant to talk in closed networks inside the factory. For…","id":"44784b0f-05e9-5161-8c20-5b252f3f5fd5","fields":{"slug":"/projects/2019-03-13-modbus-mqtt-gateway/"},"frontmatter":{"title":"ModBus to MQTT Gateway","templateKey":"project","date":"March 13, 2019"}}},{"node":{"excerpt":"The Challenge LittleEndian was engaged to create a solution creating a device and a platform to monitor and control lighitng system. The solution is an enanchement for the lamps made by the client, those lamps are sold to offices, malls and any other indoor building. Problems solved by introducing a level of smartness to those lamps are: alerting on failure compsuntiong monitoring remote control…","id":"5f62e9bf-8322-5783-9f5c-183e87c4f286","fields":{"slug":"/projects/2018-09-20-smartlighting-solution/"},"frontmatter":{"title":"Smart lighting solution","templateKey":"project","date":"September 20, 2018"}}},{"node":{"excerpt":"The Challenge This is a project born from an internal idea, a lot of times was asked us to develop solutions to manage auctions. There are a lot of auctions applications, typically web based, but we wanted to do something innovative, exploiting the power of Telegram, a platform that we appreciate a lot. The Solution We developed this telegram bot as a platform to serve both users, willing to…","id":"9f22503b-4166-5e5d-bcfd-b536663a3e80","fields":{"slug":"/projects/2018-07-17-astone-telegram-bot-for-auctions/"},"frontmatter":{"title":"Astone, the Telegram auctions bot","templateKey":"project","date":"July 17, 2018"}}}]}}};
 
 /***/ }),
 
@@ -2543,13 +2541,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_littleendian_logo_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_littleendian_logo_svg__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _img_social_facebook_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/social/facebook.svg */ "./src/img/social/facebook.svg");
 /* harmony import */ var _img_social_facebook_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_social_facebook_svg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _img_social_instagram_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/social/instagram.svg */ "./src/img/social/instagram.svg");
-/* harmony import */ var _img_social_instagram_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_img_social_instagram_svg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _img_github_icon_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/github-icon.svg */ "./src/img/github-icon.svg");
+/* harmony import */ var _img_github_icon_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_img_github_icon_svg__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _img_social_twitter_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/social/twitter.svg */ "./src/img/social/twitter.svg");
 /* harmony import */ var _img_social_twitter_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_img_social_twitter_svg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _img_social_vimeo_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/social/vimeo.svg */ "./src/img/social/vimeo.svg");
-/* harmony import */ var _img_social_vimeo_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_img_social_vimeo_svg__WEBPACK_IMPORTED_MODULE_7__);
-
 
 
 
@@ -2621,7 +2616,7 @@ function (_React$Component) {
       className: "column is-4 social"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
       title: "facebook",
-      href: "https://facebook.com"
+      href: "https://fb.me/littleendian.it "
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
       src: _img_social_facebook_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
       alt: "Facebook",
@@ -2631,7 +2626,7 @@ function (_React$Component) {
       }
     })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
       title: "twitter",
-      href: "https://twitter.com"
+      href: "https://twitter.com/gumino_one/lists/littleendian"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
       className: "fas fa-lg",
       src: _img_social_twitter_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
@@ -2641,21 +2636,11 @@ function (_React$Component) {
         height: '1em'
       }
     })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-      title: "instagram",
-      href: "https://instagram.com"
+      title: "github",
+      href: "https://github.com/orgs/little-endian-guglielmino/"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-      src: _img_social_instagram_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
-      alt: "Instagram",
-      style: {
-        width: '1em',
-        height: '1em'
-      }
-    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-      title: "vimeo",
-      href: "https://vimeo.com"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-      src: _img_social_vimeo_svg__WEBPACK_IMPORTED_MODULE_7___default.a,
-      alt: "Vimeo",
+      src: _img_github_icon_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+      alt: "Github",
       style: {
         width: '1em',
         height: '1em'
@@ -3044,17 +3029,6 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAg
 
 /***/ }),
 
-/***/ "./src/img/social/instagram.svg":
-/*!**************************************!*\
-  !*** ./src/img/social/instagram.svg ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SW5zdGFncmFtIGljb248L3RpdGxlPjxwYXRoIGQ9Ik0xMiAwQzguNzQgMCA4LjMzMy4wMTUgNy4wNTMuMDcyIDUuNzc1LjEzMiA0LjkwNS4zMzMgNC4xNC42M2MtLjc4OS4zMDYtMS40NTkuNzE3LTIuMTI2IDEuMzg0Uy45MzUgMy4zNS42MyA0LjE0Qy4zMzMgNC45MDUuMTMxIDUuNzc1LjA3MiA3LjA1My4wMTIgOC4zMzMgMCA4Ljc0IDAgMTJzLjAxNSAzLjY2Ny4wNzIgNC45NDdjLjA2IDEuMjc3LjI2MSAyLjE0OC41NTggMi45MTMuMzA2Ljc4OC43MTcgMS40NTkgMS4zODQgMi4xMjYuNjY3LjY2NiAxLjMzNiAxLjA3OSAyLjEyNiAxLjM4NC43NjYuMjk2IDEuNjM2LjQ5OSAyLjkxMy41NThDOC4zMzMgMjMuOTg4IDguNzQgMjQgMTIgMjRzMy42NjctLjAxNSA0Ljk0Ny0uMDcyYzEuMjc3LS4wNiAyLjE0OC0uMjYyIDIuOTEzLS41NTguNzg4LS4zMDYgMS40NTktLjcxOCAyLjEyNi0xLjM4NC42NjYtLjY2NyAxLjA3OS0xLjMzNSAxLjM4NC0yLjEyNi4yOTYtLjc2NS40OTktMS42MzYuNTU4LTIuOTEzLjA2LTEuMjguMDcyLTEuNjg3LjA3Mi00Ljk0N3MtLjAxNS0zLjY2Ny0uMDcyLTQuOTQ3Yy0uMDYtMS4yNzctLjI2Mi0yLjE0OS0uNTU4LTIuOTEzLS4zMDYtLjc4OS0uNzE4LTEuNDU5LTEuMzg0LTIuMTI2QzIxLjMxOSAxLjM0NyAyMC42NTEuOTM1IDE5Ljg2LjYzYy0uNzY1LS4yOTctMS42MzYtLjQ5OS0yLjkxMy0uNTU4QzE1LjY2Ny4wMTIgMTUuMjYgMCAxMiAwem0wIDIuMTZjMy4yMDMgMCAzLjU4NS4wMTYgNC44NS4wNzEgMS4xNy4wNTUgMS44MDUuMjQ5IDIuMjI3LjQxNS41NjIuMjE3Ljk2LjQ3NyAxLjM4Mi44OTYuNDE5LjQyLjY3OS44MTkuODk2IDEuMzgxLjE2NC40MjIuMzYgMS4wNTcuNDEzIDIuMjI3LjA1NyAxLjI2Ni4wNyAxLjY0Ni4wNyA0Ljg1cy0uMDE1IDMuNTg1LS4wNzQgNC44NWMtLjA2MSAxLjE3LS4yNTYgMS44MDUtLjQyMSAyLjIyNy0uMjI0LjU2Mi0uNDc5Ljk2LS44OTkgMS4zODItLjQxOS40MTktLjgyNC42NzktMS4zOC44OTYtLjQyLjE2NC0xLjA2NS4zNi0yLjIzNS40MTMtMS4yNzQuMDU3LTEuNjQ5LjA3LTQuODU5LjA3LTMuMjExIDAtMy41ODYtLjAxNS00Ljg1OS0uMDc0LTEuMTcxLS4wNjEtMS44MTYtLjI1Ni0yLjIzNi0uNDIxLS41NjktLjIyNC0uOTYtLjQ3OS0xLjM3OS0uODk5LS40MjEtLjQxOS0uNjktLjgyNC0uOS0xLjM4LS4xNjUtLjQyLS4zNTktMS4wNjUtLjQyLTIuMjM1LS4wNDUtMS4yNi0uMDYxLTEuNjQ5LS4wNjEtNC44NDQgMC0zLjE5Ni4wMTYtMy41ODYuMDYxLTQuODYxLjA2MS0xLjE3LjI1NS0xLjgxNC40Mi0yLjIzNC4yMS0uNTcuNDc5LS45Ni45LTEuMzgxLjQxOS0uNDE5LjgxLS42ODkgMS4zNzktLjg5OC40Mi0uMTY2IDEuMDUxLS4zNjEgMi4yMjEtLjQyMSAxLjI3NS0uMDQ1IDEuNjUtLjA2IDQuODU5LS4wNmwuMDQ1LjAzem0wIDMuNjc4Yy0zLjQwNSAwLTYuMTYyIDIuNzYtNi4xNjIgNi4xNjIgMCAzLjQwNSAyLjc2IDYuMTYyIDYuMTYyIDYuMTYyIDMuNDA1IDAgNi4xNjItMi43NiA2LjE2Mi02LjE2MiAwLTMuNDA1LTIuNzYtNi4xNjItNi4xNjItNi4xNjJ6TTEyIDE2Yy0yLjIxIDAtNC0xLjc5LTQtNHMxLjc5LTQgNC00IDQgMS43OSA0IDQtMS43OSA0LTQgNHptNy44NDYtMTAuNDA1YzAgLjc5NS0uNjQ2IDEuNDQtMS40NCAxLjQ0LS43OTUgMC0xLjQ0LS42NDYtMS40NC0xLjQ0IDAtLjc5NC42NDYtMS40MzkgMS40NC0xLjQzOS43OTMtLjAwMSAxLjQ0LjY0NSAxLjQ0IDEuNDM5eiIvPjwvc3ZnPg=="
-
-/***/ }),
-
 /***/ "./src/img/social/twitter.svg":
 /*!************************************!*\
   !*** ./src/img/social/twitter.svg ***!
@@ -3063,17 +3037,6 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAg
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VHdpdHRlciBpY29uPC90aXRsZT48cGF0aCBkPSJNMjMuOTU0IDQuNTY5Yy0uODg1LjM4OS0xLjgzLjY1NC0yLjgyNS43NzUgMS4wMTQtLjYxMSAxLjc5NC0xLjU3NCAyLjE2My0yLjcyMy0uOTUxLjU1NS0yLjAwNS45NTktMy4xMjcgMS4xODQtLjg5Ni0uOTU5LTIuMTczLTEuNTU5LTMuNTkxLTEuNTU5LTIuNzE3IDAtNC45MiAyLjIwMy00LjkyIDQuOTE3IDAgLjM5LjA0NS43NjUuMTI3IDEuMTI0QzcuNjkxIDguMDk0IDQuMDY2IDYuMTMgMS42NCAzLjE2MWMtLjQyNy43MjItLjY2NiAxLjU2MS0uNjY2IDIuNDc1IDAgMS43MS44NyAzLjIxMyAyLjE4OCA0LjA5Ni0uODA3LS4wMjYtMS41NjYtLjI0OC0yLjIyOC0uNjE2di4wNjFjMCAyLjM4NSAxLjY5MyA0LjM3NCAzLjk0NiA0LjgyNy0uNDEzLjExMS0uODQ5LjE3MS0xLjI5Ni4xNzEtLjMxNCAwLS42MTUtLjAzLS45MTYtLjA4Ni42MzEgMS45NTMgMi40NDUgMy4zNzcgNC42MDQgMy40MTctMS42OCAxLjMxOS0zLjgwOSAyLjEwNS02LjEwMiAyLjEwNS0uMzkgMC0uNzc5LS4wMjMtMS4xNy0uMDY3IDIuMTg5IDEuMzk0IDQuNzY4IDIuMjA5IDcuNTU3IDIuMjA5IDkuMDU0IDAgMTMuOTk5LTcuNDk2IDEzLjk5OS0xMy45ODYgMC0uMjA5IDAtLjQyLS4wMTUtLjYzLjk2MS0uNjg5IDEuOC0xLjU2IDIuNDYtMi41NDhsLS4wNDctLjAyeiIvPjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./src/img/social/vimeo.svg":
-/*!**********************************!*\
-  !*** ./src/img/social/vimeo.svg ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VmltZW8gaWNvbjwvdGl0bGU+PHBhdGggZD0iTTIzLjk3NyA2LjQxNmMtLjEwNSAyLjMzOC0xLjczOSA1LjU0My00Ljg5NCA5LjYwOS0zLjI2OCA0LjI0Ny02LjAyNiA2LjM3LTguMjkgNi4zNy0xLjQwOSAwLTIuNTc4LTEuMjk0LTMuNTUzLTMuODgxTDUuMzIyIDExLjRDNC42MDMgOC44MTYgMy44MzQgNy41MjIgMy4wMSA3LjUyMmMtLjE3OSAwLS44MDYuMzc4LTEuODgxIDEuMTMyTDAgNy4xOTdjMS4xODUtMS4wNDQgMi4zNTEtMi4wODQgMy41MDEtMy4xMjhDNS4wOCAyLjcwMSA2LjI2NiAxLjk4NCA3LjA1NSAxLjkxYzEuODY3LS4xOCAzLjAxNiAxLjEgMy40NDcgMy44MzguNDY1IDIuOTUzLjc4OSA0Ljc4OS45NzEgNS41MDcuNTM5IDIuNDUgMS4xMzEgMy42NzQgMS43NzYgMy42NzQuNTAyIDAgMS4yNTYtLjc5NiAyLjI2NS0yLjM4NSAxLjAwNC0xLjU4OSAxLjU0LTIuNzk3IDEuNjEyLTMuNjI4LjE0NC0xLjM3MS0uMzk1LTIuMDYxLTEuNjE0LTIuMDYxLS41NzQgMC0xLjE2Ny4xMjEtMS43NzcuMzkxIDEuMTg2LTMuODY4IDMuNDM0LTUuNzU3IDYuNzYyLTUuNjM3IDIuNDczLjA2IDMuNjI4IDEuNjY0IDMuNDkzIDQuNzk3bC0uMDEzLjAxeiIvPjwvc3ZnPg=="
 
 /***/ }),
 
@@ -3097,225 +3060,6 @@ var NotFoundPage = function NotFoundPage() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NotFoundPage);
-
-/***/ }),
-
-/***/ "./src/pages/contact/examples.js":
-/*!***************************************!*\
-  !*** ./src/pages/contact/examples.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
-/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
-/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var gatsby_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-link */ "./node_modules/gatsby-link/index.js");
-/* harmony import */ var gatsby_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(gatsby_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Layout */ "./src/components/Layout.js");
-
-
-
-
-
-var Index =
-/*#__PURE__*/
-function (_React$Component) {
-  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_0___default()(Index, _React$Component);
-
-  function Index() {
-    return _React$Component.apply(this, arguments) || this;
-  }
-
-  var _proto = Index.prototype;
-
-  _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-      className: "section"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "container"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "content"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Hi people"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "This is an example site integrating Netlify\u2019s form handling with Gatsby"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      to: "/contact"
-    }, "Basic contact form")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      to: "/contact/file-upload/"
-    }, "Form with file upload"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Troubleshooting"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Forms stop working after upgrading to Gatsby v2"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "This can be caused by the offline-plugin.", ' ', react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-      href: "https://github.com/gatsbyjs/gatsby/issues/7997#issuecomment-419749232"
-    }, "Workaround"), ' ', "is to use ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("code", null, "?no-cache=1"), " in the POST url to prevent the service worker from handling form submissions"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Adding reCAPTCHA"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you are planning to add reCAPTCHA please go to", ' ', react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-      href: "https://github.com/imorente/gatsby-netlify-form-example"
-    }, "imorente/gatsby-netlify-form-example"), ' ', "for a working example.")))));
-  };
-
-  return Index;
-}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
-
-
-
-/***/ }),
-
-/***/ "./src/pages/contact/file-upload.js":
-/*!******************************************!*\
-  !*** ./src/pages/contact/file-upload.js ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Contact; });
-/* harmony import */ var core_js_modules_es6_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es6.object.assign */ "core-js/modules/es6.object.assign");
-/* harmony import */ var core_js_modules_es6_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_object_assign__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es6.function.name */ "core-js/modules/es6.function.name");
-/* harmony import */ var core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_function_name__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
-/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var core_js_modules_web_dom_iterable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/web.dom.iterable */ "core-js/modules/web.dom.iterable");
-/* harmony import */ var core_js_modules_web_dom_iterable__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_iterable__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var core_js_modules_es6_array_iterator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es6.array.iterator */ "core-js/modules/es6.array.iterator");
-/* harmony import */ var core_js_modules_es6_array_iterator__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_array_iterator__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var core_js_modules_es6_object_to_string__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/es6.object.to-string */ "core-js/modules/es6.object.to-string");
-/* harmony import */ var core_js_modules_es6_object_to_string__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_object_to_string__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var core_js_modules_es6_object_keys__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es6.object.keys */ "core-js/modules/es6.object.keys");
-/* harmony import */ var core_js_modules_es6_object_keys__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_object_keys__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var gatsby_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! gatsby-link */ "./node_modules/gatsby-link/index.js");
-/* harmony import */ var gatsby_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(gatsby_link__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Layout */ "./src/components/Layout.js");
-
-
-
-
-
-
-
-
-
-
-
-function encode(data) {
-  var formData = new FormData();
-
-  for (var _i = 0, _Object$keys = Object.keys(data); _i < _Object$keys.length; _i++) {
-    var key = _Object$keys[_i];
-    formData.append(key, data[key]);
-  }
-
-  return formData;
-}
-
-var Contact =
-/*#__PURE__*/
-function (_React$Component) {
-  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2___default()(Contact, _React$Component);
-
-  function Contact(props) {
-    var _this;
-
-    _this = _React$Component.call(this, props) || this;
-
-    _this.handleChange = function (e) {
-      var _this$setState;
-
-      _this.setState((_this$setState = {}, _this$setState[e.target.name] = e.target.value, _this$setState));
-    };
-
-    _this.handleAttachment = function (e) {
-      var _this$setState2;
-
-      _this.setState((_this$setState2 = {}, _this$setState2[e.target.name] = e.target.files[0], _this$setState2));
-    };
-
-    _this.handleSubmit = function (e) {
-      e.preventDefault();
-      var form = e.target;
-      fetch('/', {
-        method: 'POST',
-        body: encode(Object.assign({
-          'form-name': form.getAttribute('name')
-        }, _this.state))
-      }).then(function () {
-        return Object(gatsby_link__WEBPACK_IMPORTED_MODULE_8__["navigate"])(form.getAttribute('action'));
-      }).catch(function (error) {
-        return alert(error);
-      });
-    };
-
-    _this.state = {};
-    return _this;
-  }
-
-  var _proto = Contact.prototype;
-
-  _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_9__["default"], null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("section", {
-      className: "section"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: "container"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: "content"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", null, "File Upload"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("form", {
-      name: "file-upload",
-      method: "post",
-      action: "/contact/thanks/",
-      "data-netlify": "true",
-      "data-netlify-honeypot": "bot-field",
-      onSubmit: this.handleSubmit
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
-      type: "hidden",
-      name: "form-name",
-      value: "file-upload"
-    }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      hidden: true
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", null, "Don\u2019t fill this out:", ' ', react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
-      name: "bot-field",
-      onChange: this.handleChange
-    }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: "field"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
-      className: "label",
-      htmlFor: 'name'
-    }, "Your name"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: "control"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
-      className: "input",
-      type: 'text',
-      name: 'name',
-      onChange: this.handleChange,
-      id: 'name',
-      required: true
-    }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: "field"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: "file"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
-      className: "file-label"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
-      className: "file-input",
-      type: "file",
-      name: "attachment",
-      onChange: this.handleAttachment
-    }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-      className: "file-cta"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-      className: "file-label"
-    }, "Choose a file\u2026"))))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-      className: "field"
-    }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
-      className: "button is-link",
-      type: "submit"
-    }, "Send")))))));
-  };
-
-  return Contact;
-}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
-
-
 
 /***/ }),
 
@@ -3396,7 +3140,7 @@ function (_React$Component) {
     }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", null, "Contact"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("form", {
       name: "contact",
       method: "post",
-      action: "https://mailthis.to/LittleEndian",
+      action: "https://formspree.io/info@little-endian.it",
       encType: "multipart/form-data"
     }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
       type: "hidden",
@@ -4125,8 +3869,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 /* harmony import */ var _components_Features__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Features */ "./src/components/Features.js");
 /* harmony import */ var _components_Testimonials__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Testimonials */ "./src/components/Testimonials.js");
-/* harmony import */ var _components_PreviewCompatibleImage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/PreviewCompatibleImage */ "./src/components/PreviewCompatibleImage.js");
-
 
 
 
@@ -4134,13 +3876,10 @@ __webpack_require__.r(__webpack_exports__);
 
 var ProductPageTemplate = function ProductPageTemplate(_ref) {
   var image = _ref.image,
-      title = _ref.title,
       heading = _ref.heading,
       description = _ref.description,
       intro = _ref.intro,
-      main = _ref.main,
-      testimonials = _ref.testimonials,
-      fullImage = _ref.fullImage;
+      testimonials = _ref.testimonials;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -4166,13 +3905,7 @@ var ProductPageTemplate = function ProductPageTemplate(_ref) {
     className: "column is-10 is-offset-1"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features__WEBPACK_IMPORTED_MODULE_3__["default"], {
     gridItems: intro.blurbs
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-7"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "has-text-weight-semibold is-size-3"
-  }, main.heading), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, main.description))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Testimonials__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Testimonials__WEBPACK_IMPORTED_MODULE_4__["default"], {
     testimonials: testimonials
   })))))));
 };
@@ -4218,7 +3951,7 @@ ProductPage.propTypes = {
   })
 };
 /* harmony default export */ __webpack_exports__["default"] = (ProductPage);
-var productPageQuery = "3374029969";
+var productPageQuery = "1531014707";
 
 /***/ }),
 
