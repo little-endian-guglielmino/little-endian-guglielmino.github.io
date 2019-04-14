@@ -978,8 +978,8 @@ var preferDefault = function preferDefault(m) {
 exports.components = {
   "component---src-templates-about-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/about-page.js */ "./src/templates/about-page.js"))),
   "component---src-templates-tech-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/tech-page.js */ "./src/templates/tech-page.js"))),
-  "component---src-templates-project-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/project.js */ "./src/templates/project.js"))),
   "component---src-templates-index-page-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/index-page.js */ "./src/templates/index-page.js"))),
+  "component---src-templates-project-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/project.js */ "./src/templates/project.js"))),
   "component---src-templates-tags-js": hot(preferDefault(__webpack_require__(/*! ./src/templates/tags.js */ "./src/templates/tags.js"))),
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
   "component---src-pages-contact-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/contact/index.js */ "./src/pages/contact/index.js"))),
@@ -3629,12 +3629,7 @@ var IndexPageTemplate = function IndexPageTemplate(_ref) {
     className: "column is-12"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "has-text-weight-semibold is-size-2"
-  }, "Latest projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogRoll__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-12 has-text-centered"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    className: "btn",
-    to: "/blog"
-  }, "Read more"))))))))));
+  }, "Latest projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BlogRoll__WEBPACK_IMPORTED_MODULE_5__["default"], null)))))))));
 };
 IndexPageTemplate.propTypes = {
   image: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string]),
