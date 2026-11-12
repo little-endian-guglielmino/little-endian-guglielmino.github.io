@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Little Endian — Agenti AI, IoT e piattaforme cloud, ingegnerizzati davvero</title>
+<meta name="description" content="Little Endian è uno studio di ingegneria del software vicino a Torino. Sviluppiamo agenti AI e workflow con LLM, prodotti IoT dal firmware al cloud, piattaforme a microservizi e app mobile multipiattaforma.">
+<link rel="canonical" href="https://www.little-endian.it/it/">
+<link rel="alternate" hreflang="en" href="https://www.little-endian.it/">
+<link rel="alternate" hreflang="it" href="https://www.little-endian.it/it/">
+<link rel="alternate" hreflang="x-default" href="https://www.little-endian.it/">
+<meta name="theme-color" content="#07080c">
+<meta name="color-scheme" content="dark light">
+<script>/* Apply a saved theme before first paint, so the page never flashes. */
+(function(){try{var t=localStorage.getItem('le-theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content',t==='light'?'#ffffff':'#07080c');}}catch(e){}})();</script>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Little Endian">
+<meta property="og:locale" content="it_IT">
+<meta property="og:locale:alternate" content="en">
+<meta property="og:title" content="Little Endian — Agenti AI, IoT e piattaforme cloud">
+<meta property="og:description" content="Studio di ingegneria del software vicino a Torino. Agenti AI e workflow con LLM, IoT dal firmware al cloud, piattaforme a microservizi e app mobile.">
+<meta property="og:url" content="https://www.little-endian.it/it/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;450;500;550;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Little Endian",
+  "url": "https://www.little-endian.it/it/",
+  "description": "Studio di ingegneria del software: agenti AI e workflow con LLM, prodotti IoT dal firmware al cloud, piattaforme a microservizi e app mobile multipiattaforma.",
+  "email": "info@little-endian.it",
+  "telephone": "+390117803557",
+  "vatID": "12092120018",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Mombello, 1/A",
+    "postalCode": "10044",
+    "addressLocality": "Pianezza",
+    "addressRegion": "TO",
+    "addressCountry": "IT"
+  },
+  "areaServed": "Worldwide",
+  "knowsAbout": ["Agenti AI", "Large language model", "OpenAI API", "Internet of Things", "Firmware embedded", "Kubernetes", "Microservizi", "Flutter"]
+}
+</script>
+</head>
+<body>
+
+<!-- ============================ HEADER ============================ -->
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="brand" href="/it/" aria-label="Little Endian — home">
+      <svg class="brand__mark" viewBox="0 0 177 115" fill="currentColor" aria-hidden="true">
+        <rect width="11" height="115"/><rect y="105" width="76" height="10"/>
+        <rect x="97" width="11" height="115"/><rect x="97" width="78" height="10"/>
+        <rect x="97" y="52" width="71" height="9"/><rect x="97" y="105" width="80" height="10"/>
+      </svg>
+      <span class="brand__name">Little&nbsp;Endian</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Principale">
+      <ul class="nav__list">
+        <li><a href="#services">Servizi</a></li>
+        <li><a href="#ai">AI</a></li>
+        <li><a href="#products">Prodotti</a></li>
+        <li><a href="#work">Progetti</a></li>
+        <li><a href="#stack">Tecnologie</a></li>
+      </ul>
+    </nav>
+
+    <div class="hdr__end">
+      <div class="lang" role="group" aria-label="Lingua">
+        <a href="/" hreflang="en">EN</a>
+        <a href="/it/" aria-current="true" hreflang="it">IT</a>
+      </div>
+      <a class="btn btn--primary btn--sm" href="#contact">Parliamone</a>
+<button class="themetoggle" type="button" data-theme-toggle aria-label="Passa al tema chiaro o scuro">
+        <svg class="t-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.2 12H2M22 12h-2.2M6.1 6.1 4.6 4.6M19.4 19.4l-1.5-1.5M17.9 6.1l1.5-1.5M4.6 19.4l1.5-1.5"/></svg>
+        <svg class="t-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.3A8.6 8.6 0 0 1 9.7 3.5a8.6 8.6 0 1 0 10.8 10.8z"/></svg>
+      </button>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+        <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="wrap hero__in">
+    <p class="eyebrow reveal">Studio di ingegneria del software &middot; Torino</p>
+    <h1 class="reveal" data-delay="60">Sviluppiamo il software che <span class="grad">muove il tuo business</span>.</h1>
+    <p class="lede reveal" data-delay="120">Little Endian è un piccolo team di sviluppatori senior. Progettiamo e rilasciamo agenti AI e workflow con LLM, prodotti connessi dal firmware al cloud, e le piattaforme e app che i tuoi clienti usano ogni giorno.</p>
+    <div class="hero__cta reveal" data-delay="180">
+      <a class="btn btn--primary" href="#contact">Parliamo del tuo progetto
+        <svg class="ico ico--arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn--ghost" href="#work">Guarda i progetti</a>
+    </div>
+    <ul class="hero__facts reveal" data-delay="240">
+      <li><span class="dot" aria-hidden="true"></span>Agenti AI e integrazione LLM</li>
+      <li><span class="dot" aria-hidden="true"></span>IoT dal firmware al cloud</li>
+      <li><span class="dot" aria-hidden="true"></span>Tre prodotti nostri</li>
+      <li><span class="dot" aria-hidden="true"></span>Solo sviluppatori senior</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================ SERVIZI ============================ -->
+<section class="section section--alt" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Cosa facciamo</p>
+      <h2>Non scriviamo solo codice. Progettiamo soluzioni.</h2>
+      <p class="lede">Che ti serva un'applicazione circoscritta o una grande architettura distribuita, hai un solo team che si prende la responsabilità di tutto il percorso: dall'idea al deploy che continua a funzionare.</p>
+    </div>
+
+    <div class="grid grid--3">
+
+      <article class="card reveal">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3v4M9 13h.01M15 13h.01M9.5 16.5h5"/></svg>
+        </div>
+        <h3>Agenti AI e automazione dei workflow</h3>
+        <p>Agenti che usano davvero i tuoi strumenti e i tuoi dati, e workflow che girano senza presidio: classificano, estraggono, riassumono e smistano. Costruiti per essere misurati, non solo dimostrati.</p>
+        <ul class="tags"><li>OpenAI API</li><li>Modelli locali</li><li>RAG</li><li>Eval</li></ul>
+      </article>
+
+      <article class="card reveal" data-delay="70">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.4"/><path d="M12 3v6.6M12 14.4V21M4.2 7.5l5.7 3.3M14.1 13.2l5.7 3.3M19.8 7.5l-5.7 3.3M9.9 13.2l-5.7 3.3"/></svg>
+        </div>
+        <h3>IoT e prodotti connessi</h3>
+        <p>Dall'inizio alla fine, con un unico interlocutore: progettazione e firmware del dispositivo, edge computing, comunicazione, backend cloud, dashboard e monitoraggio.</p>
+        <ul class="tags"><li>ESP32</li><li>MQTT</li><li>Modbus</li><li>Edge</li></ul>
+      </article>
+
+      <article class="card reveal" data-delay="140">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 18A4.5 4.5 0 0 1 6 9.05a6 6 0 0 1 11.6-1.4A4 4 0 0 1 18 18z"/><path d="M12 11v5M9.8 13.4 12 11l2.2 2.4"/></svg>
+        </div>
+        <h3>Piattaforme cloud e microservizi</h3>
+        <p>Architetture a servizi che scalano senza sorprese: container, orchestrazione, CI/CD, osservabilità e tutto quel lavoro poco glamour sull'affidabilità che tiene zitto il telefono di notte.</p>
+        <ul class="tags"><li>Kubernetes</li><li>Docker</li><li>CI/CD</li><li>Node.js</li></ul>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6.5" y="2.5" width="11" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>
+        </div>
+        <h3>App mobile multipiattaforma</h3>
+        <p>Un solo codebase, iOS e Android, con tempi brevi. Siamo stati early adopter di Flutter e ci girano sopra i nostri prodotti: sappiamo dove sono i limiti.</p>
+        <ul class="tags"><li>Flutter</li><li>Dart</li><li>iOS</li><li>Android</li></ul>
+      </article>
+
+      <article class="card reveal" data-delay="70">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 3.5 4 9l5.5 5.5"/><path d="M14.5 9.5 20 15l-5.5 5.5"/></svg>
+        </div>
+        <h3>Nuovi prodotti, da zero a uno</h3>
+        <p>Da un'idea grezza a qualcosa che le persone possono usare: perimetro, architettura, design delle API, frontend web e la pipeline di rilascio dietro. L'abbiamo fatto per i clienti e per noi stessi.</p>
+        <ul class="tags"><li>React</li><li>API</li><li>Python</li><li>TypeScript</li></ul>
+      </article>
+
+      <article class="card reveal" data-delay="140">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 12a8.5 8.5 0 1 1-2.6-6.1"/><path d="M20.8 4v4.3h-4.3"/><path d="M12 8v4.4l3 1.8"/></svg>
+        </div>
+        <h3>Modernizzazione e supporto</h3>
+        <p>Hai ereditato un codebase che nessuno vuole toccare? Prendiamo in carico sistemi esistenti per migrazioni al cloud, refactoring, performance e sicurezza — e continuiamo a supportare quello che consegniamo.</p>
+        <ul class="tags"><li>Migrazioni</li><li>Refactoring</li><li>Performance</li><li>Sicurezza</li></ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ AI ============================ -->
+<section class="section" id="ai">
+  <div class="wrap">
+    <div class="ai">
+      <div>
+        <p class="eyebrow reveal">Ingegneria AI</p>
+        <h2 class="reveal" data-delay="60">AI che <span class="grad">lavora</span>, non che chiacchiera.</h2>
+        <p class="lede reveal" data-delay="110">Un chatbot è la parte facile. Il valore sta negli agenti che agiscono sui tuoi sistemi e nei workflow che girano ogni giorno senza che nessuno li guardi. Noi costruiamo questi: su API in cloud, su modelli che ospiti tu, o su entrambi.</p>
+
+        <ul class="caps reveal" data-delay="160">
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Agenti autonomi e uso di strumenti</strong><span>Agenti che interrogano le tue API, i database e i tool interni, con output strutturato, retry e approvazione umana sui passaggi che contano.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Orchestrazione di workflow</strong><span>Pipeline multi-step attivate da eventi, code o schedulazioni — elaborazione documenti, classificazione, arricchimento dati, smistamento — osservabili dall'inizio alla fine.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Integrazione LLM con le API OpenAI</strong><span>Function calling, output strutturati, embedding, vision e voce, integrati in prodotti che già esistono — con costi e latenza tenuti sotto controllo.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Modelli locali e self-hosted</strong><span>Modelli open-weight sul tuo hardware o nel tuo cloud privato, per i dati che non possono uscire dall'azienda — e per avere costi prevedibili sui volumi.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Retrieval sulla tua conoscenza</strong><span>Ingestione, chunking, embedding e ricerca vettoriale, perché le risposte siano fondate sui tuoi documenti e dati invece di essere inventate.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Valutazione e guardrail</strong><span>Set di test, eval di regressione, versionamento dei prompt, tracing e limiti chiari su cosa un agente può fare. Trattiamo i prompt come codice, perché lo sono.</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="ai__viz reveal" data-delay="100">
+        <svg viewBox="0 0 440 420" role="img" aria-label="Diagramma: un trigger alimenta un ciclo agente che ragiona con un modello in cloud o locale, chiama strumenti come API, database e documenti, e produce un risultato verificato.">
+          <defs>
+            <linearGradient id="vg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="var(--accent)" stop-opacity=".22"/>
+              <stop offset="1" stop-color="var(--accent-2)" stop-opacity=".07"/>
+            </linearGradient>
+            <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M0 1l8 4-8 4z" fill="var(--accent-2)" opacity=".85"/>
+            </marker>
+          </defs>
+          <g font-family="JetBrains Mono, monospace" font-size="11">
+
+            <rect x="140" y="12" width="160" height="42" rx="11" fill="var(--viz-panel)" stroke="var(--viz-line)"/>
+            <text x="220" y="31" fill="var(--fg)" text-anchor="middle" font-size="11.5">Evento · coda · schedulazione</text>
+            <text x="220" y="45" fill="var(--fg-dim)" text-anchor="middle" font-size="9.5">TRIGGER</text>
+            <path d="M220 54v26" stroke="var(--accent-2)" stroke-opacity=".55" stroke-width="1.4" marker-end="url(#ah)"/>
+
+            <rect x="92" y="84" width="256" height="104" rx="14" fill="url(#vg)" stroke="var(--viz-strong)"/>
+            <text x="110" y="107" fill="var(--viz-head)" font-size="9.5" letter-spacing="1.2">CICLO AGENTE</text>
+            <text x="110" y="131" fill="var(--fg)" font-size="14" font-family="Inter Tight, sans-serif" font-weight="550">Pianifica · agisci · osserva</text>
+            <text x="110" y="153" fill="var(--fg-muted)" font-size="10.5" font-family="Inter Tight, sans-serif">Output strutturato, retry,</text>
+            <text x="110" y="169" fill="var(--fg-muted)" font-size="10.5" font-family="Inter Tight, sans-serif">approvazione umana dove serve</text>
+
+            <path d="M348 136h34" stroke="var(--accent-2)" stroke-opacity=".45" stroke-width="1.3" stroke-dasharray="3 3"/>
+            <rect x="358" y="96" width="76" height="36" rx="9" fill="var(--viz-bg)" stroke="var(--viz-line)"/>
+            <text x="396" y="112" fill="var(--fg)" text-anchor="middle" font-size="9.5">OpenAI API</text>
+            <text x="396" y="124" fill="var(--fg-dim)" text-anchor="middle" font-size="8.5">in cloud</text>
+            <rect x="358" y="140" width="76" height="36" rx="9" fill="var(--viz-bg)" stroke="var(--viz-line)"/>
+            <text x="396" y="156" fill="var(--fg)" text-anchor="middle" font-size="9.5">Modello locale</text>
+            <text x="396" y="168" fill="var(--fg-dim)" text-anchor="middle" font-size="8.5">self-hosted</text>
+            <path d="M382 114h-34M382 158h-34" stroke="var(--accent-2)" stroke-opacity=".3" stroke-width="1.1"/>
+
+            <path d="M220 188v24" stroke="var(--accent-2)" stroke-opacity=".55" stroke-width="1.4" marker-end="url(#ah)"/>
+            <text x="220" y="230" fill="var(--fg-dim)" text-anchor="middle" font-size="9.5" letter-spacing="1.2">STRUMENTI</text>
+            <g>
+              <rect x="20" y="244" width="124" height="56" rx="11" fill="var(--viz-panel)" stroke="var(--viz-line)"/>
+              <text x="82" y="268" fill="var(--fg)" text-anchor="middle" font-size="10.5">Le tue API</text>
+              <text x="82" y="283" fill="var(--fg-dim)" text-anchor="middle" font-size="9">REST · GraphQL</text>
+
+              <rect x="158" y="244" width="124" height="56" rx="11" fill="var(--viz-panel)" stroke="var(--viz-line)"/>
+              <text x="220" y="268" fill="var(--fg)" text-anchor="middle" font-size="10.5">Database</text>
+              <text x="220" y="283" fill="var(--fg-dim)" text-anchor="middle" font-size="9">SQL · NoSQL</text>
+
+              <rect x="296" y="244" width="124" height="56" rx="11" fill="var(--viz-panel)" stroke="var(--viz-line)"/>
+              <text x="358" y="268" fill="var(--fg)" text-anchor="middle" font-size="10.5">Documenti</text>
+              <text x="358" y="283" fill="var(--fg-dim)" text-anchor="middle" font-size="9">RAG · vettori</text>
+            </g>
+
+            <path d="M82 300v22h276v-22" stroke="var(--viz-line)" stroke-width="1.2" fill="none"/>
+            <path d="M220 300v22" stroke="var(--viz-line)" stroke-width="1.2"/>
+            <path d="M220 322v26" stroke="var(--accent-2)" stroke-opacity=".55" stroke-width="1.4" marker-end="url(#ah)"/>
+            <rect x="100" y="352" width="240" height="52" rx="12" fill="var(--viz-bg)" stroke="var(--viz-strong)"/>
+            <text x="220" y="374" fill="var(--fg)" text-anchor="middle" font-size="12.5" font-family="Inter Tight, sans-serif" font-weight="550">Risultato verificato e tracciato</text>
+            <text x="220" y="391" fill="var(--fg-dim)" text-anchor="middle" font-size="9">EVAL · GUARDRAIL · BUDGET DI COSTO</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PRODOTTI ============================ -->
+<section class="section section--alt" id="products">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">I nostri prodotti</p>
+      <h2>Sviluppiamo anche software nostro.</h2>
+      <p class="lede">Il lavoro su commessa è solo metà di quello che facciamo. Progettiamo, sviluppiamo, gestiamo e manteniamo tre prodotti consumer nostri — ed è anche il motivo per cui sappiamo quanto costa davvero la produzione.</p>
+    </div>
+
+    <div class="prod">
+
+      <!-- ---------- Volio ---------- -->
+      <article class="prow prow--volio reveal">
+        <div class="prow__visual">
+          <div class="device">
+            <span class="device__screen">
+              <img src="/assets/img/shot-volio.webp" width="560" height="1271" loading="lazy" decoding="async"
+                   alt="Volio su iPhone: la traccia di un volo disegnata sulla mappa, sopra il nome del pilota, la rotta, la distanza, la durata, la velocità media, l'altitudine massima e il profilo altimetrico.">
+            </span>
+          </div>
+        </div>
+
+        <div class="prow__body">
+          <div class="prow__head">
+            <span class="prow__icon"><img src="/assets/img/icon-volio.webp" width="192" height="192" loading="lazy" decoding="async" alt="Icona dell'app Volio"></span>
+            <div>
+              <p class="prow__kind">Prodotto mobile<span class="pill"><span class="dot" aria-hidden="true"></span>Online</span></p>
+              <h3 class="prow__name">Volio</h3>
+            </div>
+          </div>
+
+          <p class="prow__lede">Il social network dell'aviazione. Inserisci la marca di immatricolazione di un aereo e Volio ricostruisce il volo per te — rotta, distanza, durata, velocità e altitudine dai dati ADS&#8209;B pubblici, disegnati sulla mappa. <em>Niente inserimento manuale, mai.</em></p>
+
+          <ul class="prow__feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Import automatico da ADS&#8209;B, con partenza e arrivo compilati per te</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Schede volo che uniscono traccia, foto e statistiche</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Feed per gli spotter che abbina le foto alle marche, pubblicate solo dopo l'approvazione del pilota</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Volo per volo, pubblico o privato, più l'export per le Storie di Instagram</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Account verificati per scuole di volo, aeroclub, operatori e aziende</span></li>
+          </ul>
+
+          <div class="prow__links">
+            <a class="btn btn--ghost btn--sm" href="https://apps.apple.com/it/app/volio/id6761468707" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.9-3-.8c-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.6 2.3 2.8 2.3 1.1 0 1.6-.7 2.9-.7s1.7.7 2.9.7 2-1.1 2.7-2.2c.9-1.2 1.2-2.4 1.2-2.5 0 0-2.3-.9-2.3-3.6zM14.2 5.9c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.6 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2-.5 2.7-1.3z"/></svg>
+              App Store</a>
+            <a class="btn btn--ghost btn--sm" href="https://play.google.com/store/apps/details?id=com.littleendian.volare" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.8-.5 1.4v16.6c0 .6.2 1.1.5 1.4l.1.1 9.3-9.3v-.2L3.7 2.2l-.1.1zM16.3 15.2 13.3 12.2v-.2l3-3 .1.1 3.6 2c1 .6 1 1.5 0 2.1l-3.7 2zM15.6 15.9 12.5 12.8 3.6 21.7c.3.4.9.4 1.5.1l10.5-5.9M15.6 8.1 5.1 2.2C4.5 1.9 3.9 1.9 3.6 2.3l8.9 8.9 3.1-3.1z"/></svg>
+              Google Play</a>
+            <a class="btn btn--ghost btn--sm" href="https://www.volioapp.it" target="_blank" rel="noopener">volioapp.it
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- GioJoy ---------- -->
+      <article class="prow prow--giojoy reveal">
+        <div class="prow__visual">
+          <div class="device">
+            <span class="device__screen">
+              <img src="/assets/img/shot-giojoy.webp" width="560" height="1217" loading="lazy" decoding="async"
+                   alt="GioJoy su iPhone: l'elenco degli eventi in programma a Torino, ognuno con data, titolo, luogo ed etichette.">
+            </span>
+          </div>
+        </div>
+
+        <div class="prow__body">
+          <div class="prow__head">
+            <span class="prow__icon"><img src="/assets/img/icon-giojoy.webp" width="192" height="192" loading="lazy" decoding="async" alt="Icona dell'app GioJoy"></span>
+            <div>
+              <p class="prow__kind">Piattaforma e app<span class="pill"><span class="dot" aria-hidden="true"></span>Online</span></p>
+              <h3 class="prow__name">GioJoy</h3>
+            </div>
+          </div>
+
+          <p class="prow__lede">Una piattaforma di eventi per conoscersi dal vivo. GioJoy organizza eventi dal vivo e online — sport, cene, aperitivi, trekking, teatro — che <em>ogni iscritto può creare</em>, e ha costruito la sua community a Torino e provincia, con nuovi eventi ogni settimana.</p>
+
+          <ul class="prow__feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Creazione, scoperta e iscrizione agli eventi aperte a tutti i membri</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Limiti di partecipanti, gestione delle iscrizioni e galleria foto per ogni evento</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Ricerca e filtri su quello che succede vicino a te questo mese</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>App native iOS e Android sopra la piattaforma web</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Pensata per crescere città per città, non tutto insieme</span></li>
+          </ul>
+
+          <div class="prow__links">
+            <a class="btn btn--ghost btn--sm" href="https://apps.apple.com/it/app/giojoy/id6760832987" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.9-3-.8c-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.6 2.3 2.8 2.3 1.1 0 1.6-.7 2.9-.7s1.7.7 2.9.7 2-1.1 2.7-2.2c.9-1.2 1.2-2.4 1.2-2.5 0 0-2.3-.9-2.3-3.6zM14.2 5.9c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.6 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2-.5 2.7-1.3z"/></svg>
+              App Store</a>
+            <a class="btn btn--ghost btn--sm" href="https://play.google.com/store/apps/details?id=com.giojoy.app" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.8-.5 1.4v16.6c0 .6.2 1.1.5 1.4l.1.1 9.3-9.3v-.2L3.7 2.2l-.1.1zM16.3 15.2 13.3 12.2v-.2l3-3 .1.1 3.6 2c1 .6 1 1.5 0 2.1l-3.7 2zM15.6 15.9 12.5 12.8 3.6 21.7c.3.4.9.4 1.5.1l10.5-5.9M15.6 8.1 5.1 2.2C4.5 1.9 3.9 1.9 3.6 2.3l8.9 8.9 3.1-3.1z"/></svg>
+              Google Play</a>
+            <a class="btn btn--ghost btn--sm" href="https://www.giojoy.com" target="_blank" rel="noopener">giojoy.com
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- Workotto ---------- -->
+      <article class="prow prow--workotto reveal">
+        <div class="prow__visual">
+          <div class="device">
+            <span class="device__screen">
+              <img src="/assets/img/shot-workotto.webp" width="560" height="1217" loading="lazy" decoding="async"
+                   alt="Workotto su iPhone: l'allenamento di oggi con numero di esercizi e durata, il pulsante per iniziare, il grafico del volume delle ultime sei settimane e l'ultima sessione registrata.">
+            </span>
+          </div>
+        </div>
+
+        <div class="prow__body">
+          <div class="prow__head">
+            <span class="prow__icon"><img src="/assets/img/icon-workotto.webp" width="192" height="192" loading="lazy" decoding="async" alt="Icona dell'app Workotto"></span>
+            <div>
+              <p class="prow__kind">Prodotto mobile<span class="pill"><span class="dot" aria-hidden="true"></span>In sviluppo</span></p>
+              <h3 class="prow__name">Workotto</h3>
+            </div>
+          </div>
+
+          <p class="prow__lede">Il quaderno di allenamento per chi si allena con i pesi. Prepari le schede, segni ogni serie sotto il bilanciere e vedi i numeri salire. <em>Funziona completamente offline</em>: niente account, niente server, niente che esca dal telefono.</p>
+
+          <ul class="prow__feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Schede fino a cinque giorni con colore proprio, costruite con serie semplici, superserie, circuiti e dropset</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Oltre 1.300 esercizi cercabili per nome, muscolo o attrezzatura — più i tuoi</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Registrazione pensata per la palestra: pulsanti grandi, tastierino numerico e i valori dell'ultima sessione sotto gli occhi</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Timer di recupero automatico con feedback aptico, e schermo che resta acceso mentre ti alleni</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Carico massimo, 1RM stimato, volume settimanale per gruppo muscolare e record personali</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Nessun account, nessun cloud, nessuna analitica, nessuna pubblicità: i dati restano sul dispositivo</span></li>
+          </ul>
+
+          <div class="prow__links">
+            <a class="btn btn--ghost btn--sm" href="/workotto-site/">Scopri Workotto
+              <svg class="ico ico--arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <p class="prow__note">Presto su App Store e Google Play.</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PROGETTI ============================ -->
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Progetti selezionati</p>
+      <h2>Lavori che abbiamo consegnato ai clienti.</h2>
+      <p class="lede">Alcuni progetti di cui possiamo parlare pubblicamente. Ognuno è partito da un vincolo vero: una scadenza, un margine, una fabbrica che non si poteva ricablare.</p>
+    </div>
+
+    <div class="work">
+
+      <!-- ---- Smart lighting ---- -->
+      <details class="case reveal">
+        <summary>
+          <div>
+            <p class="case__meta"><span>Piattaforma IoT</span><span aria-hidden="true">&middot;</span><span>2018</span></p>
+            <h3 class="case__t">Piattaforma di smart lighting</h3>
+            <p class="case__d">Un dispositivo e una piattaforma cloud per monitorare e controllare gli impianti di illuminazione indoor, sviluppati insieme al produttore delle lampade.</p>
+            <ul class="tags"><li>ESP32</li><li>MQTT</li><li>Node.js</li><li>Docker</li><li>React</li><li>Redux</li></ul>
+          </div>
+          <span class="case__toggle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          </span>
+        </summary>
+        <div class="case__body">
+          <h4>La sfida</h4>
+          <p>Il cliente produceva lampade destinate a uffici, centri commerciali e altri edifici indoor, senza alcuna connettività. La manutenzione significava mandare una squadra di tecnici in ogni sito a intervalli regolari per cercare i guasti: un costo abbastanza alto da erodere visibilmente il margine. Nel frattempo i suoi clienti chiedevano il controllo da remoto che avevano già visto dalla concorrenza. Tre problemi da risolvere insieme:</p>
+          <ul>
+            <li>segnalazione dei guasti, invece di scoprirli durante un sopralluogo;</li>
+            <li>monitoraggio dei consumi abbastanza preciso da dimostrare l'efficienza energetica;</li>
+            <li>controllo remoto dell'impianto di illuminazione.</li>
+          </ul>
+          <h4>Cosa abbiamo costruito</h4>
+          <p>Il time to market era il vincolo più duro: i clienti stavano già migrando verso concorrenti dotati di sistemi smart. Abbiamo consegnato tutto lo stack in parallelo.</p>
+          <ul>
+            <li>Firmware per il dispositivo ESP32 di controllo e misura dei consumi, con l'hardware progettato insieme al cliente.</li>
+            <li>Un'applicazione di edge computing in sito, così gli impianti continuano a funzionare anche quando il collegamento cade.</li>
+            <li>Un backend centrale con le API pubbliche e la comunicazione con i dispositivi via MQTT.</li>
+            <li>Una single-page application web per monitoraggio, controllo e reportistica.</li>
+          </ul>
+          <h4>Il risultato</h4>
+          <p>Una soluzione IoT completa, dal dispositivo alla piattaforma cloud, che ha cambiato il modo in cui i clienti del cliente gestiscono l'illuminazione di grandi uffici e centri commerciali. I dati di consumo granulari hanno dato un modo concreto di misurare l'efficienza energetica e di avviare la manutenzione predittiva. Il risparmio del solo primo anno ha coperto interamente l'investimento nello sviluppo della piattaforma.</p>
+          <figure>
+            <img src="/assets/img/ecms-dashboard.png" alt="La dashboard di monitoraggio della piattaforma di smart lighting, con grafici dei consumi e stato dei dispositivi." loading="lazy" decoding="async" width="879" height="595">
+            <figcaption>La dashboard di monitoraggio e controllo.</figcaption>
+          </figure>
+        </div>
+      </details>
+
+      <!-- ---- Modbus gateway ---- -->
+      <details class="case reveal" data-delay="60">
+        <summary>
+          <div>
+            <p class="case__meta"><span>Industria 4.0</span><span aria-hidden="true">&middot;</span><span>2019</span></p>
+            <h3 class="case__t">Gateway da Modbus a MQTT</h3>
+            <p class="case__d">Un gateway edge che porta nel cloud, quasi in tempo reale, dispositivi di fabbrica legacy chiusi in reti isolate.</p>
+            <ul class="tags"><li>Python</li><li>Modbus / RS-485</li><li>MQTT</li><li>Raspberry Pi</li><li>Edge computing</li></ul>
+          </div>
+          <span class="case__toggle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          </span>
+        </summary>
+        <div class="case__body">
+          <h4>La sfida</h4>
+          <p>L'industria gira su macchine costose, spesso vecchie di decenni quando si tratta di parlare con sistemi cloud, web e mobile. I dati dentro una fabbrica valgono molto, ma restano bloccati: i dispositivi parlano solo protocolli legacy, su reti locali, e sostituirli non è un'opzione. Collegare quei dati al mondo esterno è esattamente il punto dove possiamo dare una mano.</p>
+          <h4>Cosa abbiamo costruito</h4>
+          <p>Un'applicazione Python installata su un Raspberry Pi che fa da piattaforma di <a class="textlink" href="https://it.wikipedia.org/wiki/Edge_computing" target="_blank" rel="noopener">edge computing</a>. Dialoga con i dispositivi Modbus su RS&#8209;485 e fa da gateway verso il cloud tramite MQTT, un protocollo standard che si integra praticamente con qualsiasi cosa. I dati di produzione e gli allarmi sono diventati disponibili quasi in tempo reale, da qualunque posto.</p>
+          <h4>Il risultato</h4>
+          <p>Il gateway ha cambiato quello che l'azienda poteva effettivamente controllare: i processi si osservano e si correggono mentre accadono, non si ricostruiscono dopo. E poiché MQTT ha aperto la porta a moltissime piattaforme, in poco tempo tutte le fabbriche collegate hanno ottimizzato flussi e processi — un salto reale di efficienza, senza sostituire una sola macchina.</p>
+          <figure>
+            <img src="/assets/img/modbus-gateway-architecture.png" alt="Diagramma di architettura: dispositivi Modbus su bus RS-485 collegati a un gateway Raspberry Pi che pubblica su un broker MQTT nel cloud." loading="lazy" decoding="async" width="1792" height="1063">
+            <figcaption>Architettura del gateway, dal bus RS&#8209;485 al broker in cloud.</figcaption>
+          </figure>
+        </div>
+      </details>
+
+      <!-- ---- Astone ---- -->
+      <details class="case reveal" data-delay="120">
+        <summary>
+          <div>
+            <p class="case__meta"><span>R&amp;S di prodotto &middot; open source</span><span aria-hidden="true">&middot;</span><span>2018</span></p>
+            <h3 class="case__t">Astone, il bot Telegram per le aste</h3>
+            <p class="case__d">Una piattaforma di aste in tempo reale costruita interamente dentro Telegram, oggi punto di partenza di una famiglia di progetti su misura.</p>
+            <ul class="tags"><li>Node.js</li><li>MongoDB</li><li>Telegram Bot API</li><li>Open source</li></ul>
+          </div>
+          <span class="case__toggle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          </span>
+        </summary>
+        <div class="case__body">
+          <h4>La sfida</h4>
+          <p>Questo è nato da un'idea interna. Ci avevano chiesto di sviluppare sistemi per gestire aste abbastanza volte da notare uno schema: erano tutte applicazioni web, e si somigliavano tutte. Volevamo provare un'altra strada e usare come interfaccia una piattaforma che ci piace molto: Telegram.</p>
+          <h4>Cosa abbiamo costruito</h4>
+          <p>Un bot Telegram che serve entrambi i lati di un'asta: chi pubblica oggetti e chi rilancia. L'utente crea l'asta da dentro Telegram, e prima della pubblicazione c'è un passaggio di approvazione che tiene fuori i contenuti che violerebbero il diritto d'autore o altre regole. Una volta approvata, l'asta riceve data e ora di inizio; quando apre, il bot ricrea nella chat la stessa tensione di una sala d'asta reale.</p>
+          <h4>Il risultato</h4>
+          <p>Un proof of concept che è poi diventato il punto di partenza di diversi progetti su misura, e che continuiamo a migliorare di tanto in tanto. Il bot originale è open source e si può provare dal vivo.</p>
+          <p>
+            <a class="textlink" href="https://telegram.me/AstoneBot" target="_blank" rel="noopener">Apri @AstoneBot su Telegram
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+            &nbsp;&nbsp;
+            <a class="textlink" href="https://github.com/guglielmino/astone-bot" target="_blank" rel="noopener">Codice su GitHub
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </p>
+          <figure>
+            <img src="/assets/img/astone-telegram-bot.png" alt="Una conversazione Telegram con il bot Astone, con il menu di creazione dell'asta." loading="lazy" decoding="async" width="409" height="363">
+            <figcaption>Creare e gestire un'asta senza uscire dalla chat.</figcaption>
+          </figure>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TECNOLOGIE ============================ -->
+<section class="section section--alt" id="stack">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Tecnologie</p>
+      <h2>Lo strumento giusto per il lavoro.</h2>
+      <p class="lede">Siamo flessibili sulle tecnologie e non abbiamo nessun interesse a venderti uno stack che non ti serve. Queste sono quelle che conosciamo abbastanza a fondo per assumercene la responsabilità.</p>
+    </div>
+
+    <div class="stack reveal">
+      <div class="stack__group">
+        <h3>AI e LLM</h3>
+        <ul><li>OpenAI API</li><li>Function calling</li><li>Modelli locali / open-weight</li><li>RAG e ricerca vettoriale</li><li>Orchestrazione di agenti</li><li>Eval e tracing</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Linguaggi</h3>
+        <ul><li>Python</li><li>TypeScript</li><li>Node.js</li><li>Dart</li><li>C / C++</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Mobile</h3>
+        <ul><li>Flutter</li><li>iOS</li><li>Android</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Web e API</h3>
+        <ul><li>React</li><li>Redux</li><li>REST</li><li>GraphQL</li><li>Django</li><li>Flask</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Infrastruttura</h3>
+        <ul><li>Docker</li><li>Kubernetes</li><li>CI/CD</li><li>Cloud e ibrido</li><li>Monitoraggio</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Dati</h3>
+        <ul><li>MongoDB</li><li>PostgreSQL</li><li>Redis</li><li>Serie temporali</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>IoT ed embedded</h3>
+        <ul><li>ESP32 / ESP8266</li><li>MQTT</li><li>Modbus / RS-485</li><li>Raspberry Pi</li><li>Edge computing</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Come lavoriamo</h3>
+        <ul><li>Code review</li><li>Test automatici</li><li>Ambienti condivisi</li><li>Note di rilascio</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Possiamo anche</h3>
+        <ul><li>Entrare nel tuo repo</li><li>Lavorare col tuo team</li><li>Fare audit di un sistema</li><li>Formare i tuoi sviluppatori</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ APPROCCIO ============================ -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Come lavoriamo</p>
+      <h2>Software di qualità, e niente da nascondere.</h2>
+    </div>
+
+    <div class="approach">
+      <article class="approach__item reveal">
+        <h3>Qualità, non solo output</h3>
+        <p>Molte aziende fanno software; poche fanno software di <strong>qualità</strong>. È tutto il nostro obiettivo. Review, test, documentazione e un deploy di cui ti puoi fidare fanno parte del lavoro, non sono un extra da pagare.</p>
+      </article>
+      <article class="approach__item reveal" data-delay="70">
+        <h3>Diretti e trasparenti</h3>
+        <p>Parli con le persone che stanno sviluppando il tuo prodotto. Stato del progetto, codice sorgente, ambienti e notifiche di rilascio li condividiamo con te dalla prima settimana, con gli stessi strumenti che usiamo internamente.</p>
+      </article>
+      <article class="approach__item reveal" data-delay="140">
+        <h3>Ci mettiamo la faccia fino alla fine</h3>
+        <p>Il nostro lavoro è supportarti dall'idea al deploy, e anche dopo. Vale sia quando partiamo da zero sia quando prendiamo in carico un codebase esistente per migrazioni, refactoring, performance o sicurezza.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONTATTI ============================ -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="contact reveal">
+      <div>
+        <p class="eyebrow">Contatti</p>
+        <h2>Parliamo di quello che vuoi costruire.</h2>
+        <p class="lede">Raccontaci cosa stai cercando di fare. Ti diremo onestamente se siamo il team giusto, come lo affronteremmo e cosa servirebbe. Niente form che finiscono nel nulla: il tuo messaggio arriva direttamente a noi.</p>
+        <p style="margin-top:28px">
+          <a class="btn btn--primary" href="mailto:info@little-endian.it?subject=Richiesta%20di%20informazioni">Scrivici
+            <svg class="ico ico--arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </p>
+      </div>
+
+      <ul class="contact__list">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3.5 7l8.5 6 8.5-6"/></svg>
+          <div><span class="k">Email</span><a href="mailto:info@little-endian.it">info@little-endian.it</a></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a10 10 0 0 0 5 5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.7 2 2 0 0 1 6.5 3.5z"/></svg>
+          <div><span class="k">Telefono</span><a href="tel:+390117803557">+39 011 7803557</a></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+          <div><span class="k">Sede</span><address>Via Mombello, 1/A<br>10044 Pianezza (TO) &mdash; Italia</address></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5A3.9 3.9 0 0 1 6.6 8c-.1-.3-.4-1.3.1-2.6 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.9 5.1 18.9 5.4 18.9 5.4c.5 1.3.2 2.3.1 2.6a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.8-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+          <div><span class="k">Open source</span><a href="https://github.com/orgs/little-endian-guglielmino/" target="_blank" rel="noopener">github.com/little-endian-guglielmino</a></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__top">
+      <div>
+        <a class="brand" href="/it/">
+          <svg class="brand__mark" viewBox="0 0 177 115" fill="currentColor" aria-hidden="true">
+        <rect width="11" height="115"/><rect y="105" width="76" height="10"/>
+        <rect x="97" width="11" height="115"/><rect x="97" width="78" height="10"/>
+        <rect x="97" y="52" width="71" height="9"/><rect x="97" y="105" width="80" height="10"/>
+      </svg>
+          <span class="brand__name">Little&nbsp;Endian</span>
+        </a>
+        <p class="ftr__blurb">Studio di ingegneria del software vicino a Torino: agenti AI, prodotti connessi e le piattaforme che ci stanno dietro.</p>
+      </div>
+
+      <div>
+        <h4>Sito</h4>
+        <ul>
+          <li><a href="#services">Servizi</a></li>
+          <li><a href="#ai">Ingegneria AI</a></li>
+          <li><a href="#products">Prodotti</a></li>
+          <li><a href="#work">Progetti</a></li>
+          <li><a href="#stack">Tecnologie</a></li>
+          <li><a href="#contact">Contatti</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Prodotti</h4>
+        <ul>
+          <li><a href="https://www.volioapp.it" target="_blank" rel="noopener">Volio</a></li>
+          <li><a href="https://www.giojoy.com" target="_blank" rel="noopener">GioJoy</a></li>
+          <li><a href="/workotto-site/">Workotto</a></li>
+          <li><a href="https://telegram.me/AstoneBot" target="_blank" rel="noopener">Bot Astone</a></li>
+        </ul>
+        <h4 style="margin-top:22px">Lingua</h4>
+        <ul><li><a href="/" hreflang="en">English</a></li></ul>
+      </div>
+    </div>
+
+    <div class="ftr__legal">
+      <p>&copy; <span data-year>2026</span> Little Endian &middot; P.IVA 12092120018 &middot; REA/CCIAA TO&#8209;1263848 &middot; Via Mombello 1/A, 10044 Pianezza (TO), Italia</p>
+      <div class="ftr__social">
+        <a href="https://github.com/orgs/little-endian-guglielmino/" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5A3.9 3.9 0 0 1 6.6 8c-.1-.3-.4-1.3.1-2.6 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.9 5.1 18.9 5.4 18.9 5.4c.5 1.3.2 2.3.1 2.6a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.8-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+        </a>
+        <a href="mailto:info@little-endian.it" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3.5 7l8.5 6 8.5-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

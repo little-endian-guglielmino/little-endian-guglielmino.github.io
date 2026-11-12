@@ -1,46 +1,725 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.7c8cb3643c048c32e5c0.css">.navbar .navbar-menu{box-shadow:none!important}.content .taglist{list-style:none;margin:1.5rem 1.5rem 0 0;display:flex;flex-wrap:wrap;justify-content:left;align-items:center}.content .taglist li{padding:0 2rem 1rem 0;margin-bottom:1.5rem;margin-top:0}.full-width-image-container{position:relative;left:50%;right:50%;margin:2em -50vw}.full-width-image,.full-width-image-container{width:100vw;height:400px;background-size:cover;background-position:bottom;display:flex;justify-content:center;align-items:center}.btn{display:inline-block;padding:12px 16px 10px;font-size:18px;font-size:1rem;line-height:1.25;background-color:#fff;border-radius:.25rem;text-decoration:none;font-weight:700;color:#cc3700;text-align:center;box-shadow:inset 0 0 0 2px #f40;transition:all .15s ease}.margin-top-0{margin-top:0!important}.navbar-item .icon{color:#e85100}.icon svg{width:1.5rem;height:1.5rem;fill:currentColor}.navbar-brand .navbar-item.logo{padding:0 1rem}footer.footer{padding:3rem 0 0;background-color:transparent}.menu-list{list-style:none!important;text-align:left}.social{padding:2em}.social a{padding:.5em .5em .3em;border-radius:1em;background-color:#f5f5f5;margin:.5em;width:1em;height:1em;vertical-align:middle;display:inline}/*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */@keyframes spinAround{0%{transform:rotate(0deg)}to{transform:rotate(359deg)}}.button{-webkit-touch-callout:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.box:not(:last-child),.content:not(:last-child),.message:not(:last-child),.notification:not(:last-child),.subtitle:not(:last-child),.title:not(:last-child){margin-bottom:1.5rem}.button,.input,.textarea{-moz-appearance:none;-webkit-appearance:none;align-items:center;border:1px solid transparent;border-radius:4px;box-shadow:none;display:inline-flex;font-size:1rem;height:2.25em;justify-content:flex-start;line-height:1.5;padding:calc(.375em - 1px) calc(.625em - 1px);position:relative;vertical-align:top}.button:active,.button:focus,.input:active,.input:focus,.is-active.button,.is-active.input,.is-active.textarea,.textarea:active,.textarea:focus{outline:none}.button[disabled],.input[disabled],.textarea[disabled]{cursor:not-allowed}/*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */body,h1,h2,h3,h4,html,li,p,textarea,ul{margin:0;padding:0}h1,h2,h3,h4{font-size:100%;font-weight:400}ul{list-style:none}button,input,textarea{margin:0}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}img,object{height:auto;max-width:100%}html{background-color:#fff;font-size:16px;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}article,footer,section{display:block}body,button,input,textarea{font-family:BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif}body{color:#333;font-size:1em;font-weight:400;line-height:1.5}a{color:#3273dc;cursor:pointer;text-decoration:none}a strong{color:currentColor}a:hover{color:#363636}img{height:auto;max-width:100%}input[type=checkbox],input[type=radio]{vertical-align:baseline}span{font-style:inherit;font-weight:inherit}strong{color:#363636;font-weight:700}.is-size-1{font-size:3rem!important}.is-size-2{font-size:2.5rem!important}.is-size-3{font-size:2rem!important}.is-size-4{font-size:1.5rem!important}.is-size-5{font-size:1.25rem!important}.is-size-7{font-size:.75rem!important}.has-text-centered{text-align:center!important}.has-text-left{text-align:left!important}.has-background-black{background-color:#2b2523!important}.has-text-primary{color:#e85100!important}a.has-text-primary:focus,a.has-text-primary:hover{color:#b53f00!important}.has-text-white-ter{color:#f5f5f5!important}.has-text-weight-semibold{font-weight:600!important}.has-text-weight-bold{font-weight:700!important}.is-block{display:block!important}.box{background-color:#fff;border-radius:6px;box-shadow:0 2px 3px rgba(43,37,35,.1),0 0 0 1px rgba(43,37,35,.1);color:#4a4a4a;display:block;padding:1.25rem}a.box:focus,a.box:hover{box-shadow:0 2px 3px rgba(43,37,35,.1),0 0 0 1px #3273dc}a.box:active{box-shadow:inset 0 1px 2px rgba(43,37,35,.2),0 0 0 1px #3273dc}.button{background-color:#fff;border-color:#dbdbdb;border-width:1px;color:#363636;cursor:pointer;justify-content:center;padding:calc(.375em - 1px) .75em;text-align:center;white-space:nowrap}.button strong{color:inherit}.button .icon{height:1.5em;width:1.5em}.button .icon:first-child:not(:last-child){margin-left:calc(-.375em - 1px);margin-right:.1875em}.button .icon:last-child:not(:first-child){margin-left:.1875em;margin-right:calc(-.375em - 1px)}.button .icon:first-child:last-child{margin-left:calc(-.375em - 1px);margin-right:calc(-.375em - 1px)}.button:hover{border-color:#b5b5b5;color:#363636}.button:focus{border-color:#3273dc;color:#363636}.button:focus:not(:active){box-shadow:0 0 0 .125em rgba(50,115,220,.25)}.button.is-active,.button:active{border-color:#4a4a4a;color:#363636}.button.is-link{background-color:#3273dc;border-color:transparent;color:#fff}.button.is-link:hover{background-color:#276cda}.button.is-link:focus,.button.is-link:hover{border-color:transparent;color:#fff}.button.is-link:focus:not(:active){box-shadow:0 0 0 .125em rgba(50,115,220,.25)}.button.is-link.is-active,.button.is-link:active{background-color:#2366d1;border-color:transparent;color:#fff}.button.is-link[disabled]{background-color:#3273dc;border-color:transparent;box-shadow:none}.button[disabled]{background-color:#fff;border-color:#dbdbdb;box-shadow:none;opacity:.5}.container{flex-grow:1;margin:0 auto;position:relative;width:auto}@media screen and (min-width:1024px){.container{max-width:960px}}@media screen and (min-width:1216px){.container{max-width:1152px}}@media screen and (min-width:1408px){.container{max-width:1344px}}.content li+li{margin-top:.25em}.content p:not(:last-child),.content ul:not(:last-child){margin-bottom:1em}.content h1,.content h2,.content h3,.content h4{color:#363636;font-weight:600;line-height:1.125}.content h1{font-size:2em;margin-bottom:.5em}.content h1:not(:first-child){margin-top:1em}.content h2{font-size:1.75em;margin-bottom:.5714em}.content h2:not(:first-child){margin-top:1.1428em}.content h3{font-size:1.5em;margin-bottom:.6666em}.content h3:not(:first-child){margin-top:1.3333em}.content h4{font-size:1.25em;margin-bottom:.8em}.content ul{list-style:disc outside;margin-left:2em;margin-top:1em}.content ul ul{list-style-type:circle;margin-top:.5em}.content ul ul ul{list-style-type:square}.icon{align-items:center;display:inline-flex;justify-content:center;height:1.5rem;width:1.5rem}.image{display:block;position:relative}.image img{display:block;height:auto;width:100%}.notification{background-color:#f5f5f5;border-radius:4px;padding:1.25rem 2.5rem 1.25rem 1.5rem;position:relative}.notification a:not(.button):not(.dropdown-item){color:currentColor;text-decoration:underline}.notification .content,.notification .subtitle,.notification .title,.notification strong{color:currentColor}.notification.is-link{background-color:#3273dc;color:#fff}@keyframes moveIndeterminate{0%{background-position:200% 0}to{background-position:-200% 0}}.tags{align-items:center;display:flex;flex-wrap:wrap;justify-content:flex-start}.tags .tag{margin-bottom:.5rem}.tags .tag:not(:last-child){margin-right:.5rem}.tags:last-child{margin-bottom:-.5rem}.tags:not(:last-child){margin-bottom:1rem}.tag:not(body){align-items:center;background-color:#f5f5f5;border-radius:4px;color:#4a4a4a;display:inline-flex;font-size:.75rem;height:2em;justify-content:center;line-height:1.5;padding-left:.75em;padding-right:.75em;white-space:nowrap}.tag:not(body).is-link{background-color:#3273dc;color:#fff}.tag:not(body) .icon:first-child:not(:last-child){margin-left:-.375em;margin-right:.1875em}.tag:not(body) .icon:last-child:not(:first-child){margin-left:.1875em;margin-right:-.375em}.tag:not(body) .icon:first-child:last-child{margin-left:-.375em;margin-right:-.375em}a.tag:hover{text-decoration:underline}.subtitle,.title{word-break:break-word}.subtitle span,.title span{font-weight:inherit}.subtitle .tag,.title .tag{vertical-align:middle}.title{color:#363636;font-size:2rem;font-weight:600;line-height:1.125}.title strong{color:inherit;font-weight:inherit}.title:not(.is-spaced)+.subtitle{margin-top:-1.25rem}.title.is-4{font-size:1.5rem}.title.is-6{font-size:1rem}.title.is-7{font-size:.75rem}.subtitle{color:#4a4a4a;font-size:1.25rem;font-weight:400;line-height:1.25}.subtitle strong{color:#363636;font-weight:600}.subtitle:not(.is-spaced)+.title{margin-top:-1.25rem}.subtitle.is-4{font-size:1.5rem}.subtitle.is-6{font-size:1rem}.subtitle.is-7{font-size:.75rem}.heading{display:block;font-size:11px;letter-spacing:1px;margin-bottom:5px;text-transform:uppercase}.number{align-items:center;background-color:#f5f5f5;border-radius:290486px;display:inline-flex;font-size:1.25rem;height:2em;justify-content:center;margin-right:1.5rem;min-width:2.5em;padding:.25rem .5rem;text-align:center;vertical-align:top}.input,.textarea{background-color:#fff;border-color:#dbdbdb;border-radius:4px;color:#363636}.input::-moz-placeholder,.textarea::-moz-placeholder{color:rgba(54,54,54,.3)}.input::-webkit-input-placeholder,.textarea::-webkit-input-placeholder{color:rgba(54,54,54,.3)}.input:-moz-placeholder,.textarea:-moz-placeholder{color:rgba(54,54,54,.3)}.input:-ms-input-placeholder,.textarea:-ms-input-placeholder{color:rgba(54,54,54,.3)}.input:hover,.textarea:hover{border-color:#b5b5b5}.input:active,.input:focus,.is-active.input,.is-active.textarea,.textarea:active,.textarea:focus{border-color:#3273dc;box-shadow:0 0 0 .125em rgba(50,115,220,.25)}.input[disabled],.textarea[disabled]{background-color:#f5f5f5;border-color:#f5f5f5;box-shadow:none;color:#7a7a7a}.input[disabled]::-moz-placeholder,.textarea[disabled]::-moz-placeholder{color:hsla(0,0%,47.8%,.3)}.input[disabled]::-webkit-input-placeholder,.textarea[disabled]::-webkit-input-placeholder{color:hsla(0,0%,47.8%,.3)}.input[disabled]:-moz-placeholder,.textarea[disabled]:-moz-placeholder{color:hsla(0,0%,47.8%,.3)}.input[disabled]:-ms-input-placeholder,.textarea[disabled]:-ms-input-placeholder{color:hsla(0,0%,47.8%,.3)}.input,.textarea{box-shadow:inset 0 1px 2px rgba(43,37,35,.1);max-width:100%;width:100%}.input[readonly],.textarea[readonly]{box-shadow:none}.is-link.input,.is-link.textarea{border-color:#3273dc}.is-link.input:active,.is-link.input:focus,.is-link.is-active.input,.is-link.is-active.textarea,.is-link.textarea:active,.is-link.textarea:focus{box-shadow:0 0 0 .125em rgba(50,115,220,.25)}.textarea{display:block;max-width:100%;min-width:100%;padding:.625em;resize:vertical}.textarea:not([rows]){max-height:600px;min-height:120px}.textarea[rows]{height:auto}.label{color:#363636;display:block;font-size:1rem;font-weight:700}.label:not(:last-child){margin-bottom:.5em}.field:not(:last-child){margin-bottom:.75rem}.control{box-sizing:border-box;clear:both;position:relative;text-align:left}.control,.menu{font-size:1rem}.menu-list{line-height:1.25}.menu-list a{border-radius:2px;color:#f5f5f5;display:block;padding:.5em .75em}.menu-list a:hover{background-color:#2b2523;color:#2b2523!important}.menu-list a.is-active{background-color:#0073e6;color:#0073e6}.menu-list li ul{border-left:1px solid #0073e6;margin:.75em;padding-left:.75em}.message{background-color:#f5f5f5;border-radius:4px;font-size:1rem}.message strong{color:currentColor}.message a:not(.button):not(.tag):not(.dropdown-item){color:currentColor;text-decoration:underline}.message.is-link{background-color:#f6f9fe}.message.is-link .message-body{border-color:#3273dc;color:#22509a}.message-body{border-radius:4px;border:solid #dbdbdb;border-width:0 0 0 4px;color:#4a4a4a;padding:1.25em 1.5em}.navbar{background-color:#fff;min-height:3.25rem;position:relative;z-index:30}.navbar.is-link{background-color:#3273dc;color:#fff}.navbar.is-link .navbar-brand>.navbar-item{color:#fff}.navbar.is-link .navbar-brand>a.navbar-item.is-active,.navbar.is-link .navbar-brand>a.navbar-item:focus,.navbar.is-link .navbar-brand>a.navbar-item:hover{background-color:#2366d1;color:#fff}.navbar.is-link .navbar-burger{color:#fff}@media screen and (min-width:1024px){.navbar.is-link .navbar-end>.navbar-item,.navbar.is-link .navbar-start>.navbar-item{color:#fff}.navbar.is-link .navbar-end>a.navbar-item.is-active,.navbar.is-link .navbar-end>a.navbar-item:focus,.navbar.is-link .navbar-end>a.navbar-item:hover,.navbar.is-link .navbar-start>a.navbar-item.is-active,.navbar.is-link .navbar-start>a.navbar-item:focus,.navbar.is-link .navbar-start>a.navbar-item:hover{background-color:#2366d1;color:#fff}}.navbar>.container{width:100%}.navbar-brand,.navbar>.container{align-items:stretch;display:flex;min-height:3.25rem}.navbar-brand{flex-shrink:0}.navbar-brand a.navbar-item:focus,.navbar-brand a.navbar-item:hover{background-color:transparent}.navbar-burger{color:#4a4a4a;cursor:pointer;display:block;height:3.25rem;position:relative;width:3.25rem;margin-left:auto}.navbar-burger span{background-color:currentColor;display:block;height:1px;left:calc(50% - 8px);position:absolute;transform-origin:center;transition-duration:86ms;transition-property:background-color,opacity,transform;transition-timing-function:ease-out;width:16px}.navbar-burger span:first-child{top:calc(50% - 6px)}.navbar-burger span:nth-child(2){top:calc(50% - 1px)}.navbar-burger span:nth-child(3){top:calc(50% + 4px)}.navbar-burger:hover{background-color:rgba(0,0,0,.05)}.navbar-burger.is-active span:first-child{transform:translateY(5px) rotate(45deg)}.navbar-burger.is-active span:nth-child(2){opacity:0}.navbar-burger.is-active span:nth-child(3){transform:translateY(-5px) rotate(-45deg)}.navbar-menu{display:none}.navbar-item{color:#4a4a4a;line-height:1.5;padding:.5rem .75rem;position:relative}.navbar-item .icon:only-child{margin-left:-.25rem;margin-right:-.25rem}a.navbar-item{cursor:pointer}a.navbar-item.is-active,a.navbar-item:focus,a.navbar-item:focus-within,a.navbar-item:hover{background-color:#fafafa;color:#3273dc}.navbar-item{display:block;flex-grow:0;flex-shrink:0}.navbar-item img{max-height:1.75rem}@media screen and (max-width:1023px){.navbar>.container{display:block}.navbar-brand .navbar-item{align-items:center;display:flex}.navbar-menu{background-color:#fff;box-shadow:0 8px 16px rgba(43,37,35,.1);padding:.5rem 0}.navbar-menu.is-active{display:block}}@media screen and (min-width:1024px){.navbar,.navbar-end,.navbar-menu,.navbar-start{align-items:stretch;display:flex}.navbar{min-height:3.25rem}.navbar.is-transparent a.navbar-item.is-active,.navbar.is-transparent a.navbar-item:focus,.navbar.is-transparent a.navbar-item:hover{background-color:transparent!important}.navbar-burger{display:none}.navbar-item{align-items:center;display:flex}.navbar-menu{flex-grow:1;flex-shrink:0}.navbar-start{justify-content:flex-start;margin-right:auto}.navbar-end{justify-content:flex-end;margin-left:auto}.container>.navbar .navbar-brand,.navbar>.container .navbar-brand{margin-left:-.75rem}.container>.navbar .navbar-menu,.navbar>.container .navbar-menu{margin-right:-.75rem}a.navbar-item.is-active{color:#2b2523}a.navbar-item.is-active:not(:focus):not(:hover){background-color:transparent}}.column{display:block;flex-basis:0;flex-grow:1;flex-shrink:1;padding:.75rem}@media print,screen and (min-width:769px){.column.is-offset-1{margin-left:8.33333%}.column.is-4{flex:none;width:33.33333%}.column.is-6{flex:none;width:50%}.column.is-7{flex:none;width:58.33333%}.column.is-10{flex:none;width:83.33333%}.column.is-12{flex:none;width:100%}}.columns{margin-left:-.75rem;margin-right:-.75rem;margin-top:-.75rem}.columns:last-child{margin-bottom:-.75rem}.columns:not(:last-child){margin-bottom:.75rem}.columns.is-multiline{flex-wrap:wrap}@media print,screen and (min-width:769px){.columns:not(.is-desktop){display:flex}}.tile{align-items:stretch;display:block;flex-basis:0;flex-grow:1;flex-shrink:1;min-height:-webkit-min-content;min-height:min-content}.tile.is-child{margin:0!important}.tile.is-parent{padding:.75rem}@media print,screen and (min-width:769px){.tile:not(.is-child){display:flex}.tile.is-4{flex:none;width:33.33333%}.tile.is-6{flex:none;width:50%}.tile.is-7{flex:none;width:58.33333%}.tile.is-10{flex:none;width:83.33333%}.tile.is-12{flex:none;width:100%}}.section{padding:3rem 1.5rem}.footer{background-color:#fafafa;padding:3rem 1.5rem 6rem}</style><meta name="generator" content="Gatsby 2.22.8"/><title data-react-helmet="true">Little Endian - Company Site</title><link data-react-helmet="true" rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png"/><link data-react-helmet="true" rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32"/><link data-react-helmet="true" rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16"/><link data-react-helmet="true" rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400"/><meta data-react-helmet="true" name="description" content="Little Endian - The Sofware Developers Company Site."/><meta data-react-helmet="true" name="theme-color" content="#fff"/><meta data-react-helmet="true" property="og:type" content="business.business"/><meta data-react-helmet="true" property="og:title" content="Little Endian - Company Site"/><meta data-react-helmet="true" property="og:url" content="https://www.little-endian.it"/><meta data-react-helmet="true" property="og:image" content="https://www.little-endian.it/img/og-image.jpg"/><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/framework-f2b1673255104281184a.js"/><link as="script" rel="preload" href="/commons-55bb36824e4c9a6f6247.js"/><link as="script" rel="preload" href="/component---src-templates-index-page-js-6557c5350094fc9c3665.js"/><link as="script" rel="preload" href="/eb2ed0b4cd5cf7f97b5cb8dddc06e52ff24f9682-e108d107f41ff656f28b.js"/><link as="script" rel="preload" href="/app-68425c85b3afead56220.js"/><link as="script" rel="preload" href="/styles-823ae8103e36ae8a7f9f.js"/><link as="script" rel="preload" href="/webpack-runtime-07d90d33a6233efadd2e.js"/><link as="fetch" rel="preload" href="/page-data/index/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><nav class="navbar is-transparent" role="navigation" aria-label="main-navigation"><div class="container"><div class="navbar-brand"><a aria-current="page" class="navbar-item" title="Logo" href="/"><img src="/static/littleendian-logo-512891dca667eae0131b546c33430ba0.svg" alt="LittleEndian" style="width:120px"/></a><div class="navbar-burger burger " data-target="navMenu"><span></span><span></span><span></span></div></div><div id="navMenu" class="navbar-menu "><div class="navbar-start has-text-centered"><a class="navbar-item" href="/about">About</a><a class="navbar-item" href="/technologies">Technologies</a><a class="navbar-item" href="/projects">Projects</a><a class="navbar-item" href="/contact">Contact</a></div><div class="navbar-end has-text-centered"><a class="navbar-item" href="https://github.com/orgs/little-endian-guglielmino/" target="_blank" rel="noopener noreferrer"><span class="icon"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDM4LjU0OXB4IiBoZWlnaHQ9IjQzOC41NDlweCIgdmlld0JveD0iMCAwIDQzOC41NDkgNDM4LjU0OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDM4LjU0OSA0MzguNTQ5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQwOS4xMzIsMTE0LjU3M2MtMTkuNjA4LTMzLjU5Ni00Ni4yMDUtNjAuMTk0LTc5Ljc5OC03OS44QzI5NS43MzYsMTUuMTY2LDI1OS4wNTcsNS4zNjUsMjE5LjI3MSw1LjM2NSAgIGMtMzkuNzgxLDAtNzYuNDcyLDkuODA0LTExMC4wNjMsMjkuNDA4Yy0zMy41OTYsMTkuNjA1LTYwLjE5Miw0Ni4yMDQtNzkuOCw3OS44QzkuODAzLDE0OC4xNjgsMCwxODQuODU0LDAsMjI0LjYzICAgYzAsNDcuNzgsMTMuOTQsOTAuNzQ1LDQxLjgyNywxMjguOTA2YzI3Ljg4NCwzOC4xNjQsNjMuOTA2LDY0LjU3MiwxMDguMDYzLDc5LjIyN2M1LjE0LDAuOTU0LDguOTQ1LDAuMjgzLDExLjQxOS0xLjk5NiAgIGMyLjQ3NS0yLjI4MiwzLjcxMS01LjE0LDMuNzExLTguNTYyYzAtMC41NzEtMC4wNDktNS43MDgtMC4xNDQtMTUuNDE3Yy0wLjA5OC05LjcwOS0wLjE0NC0xOC4xNzktMC4xNDQtMjUuNDA2bC02LjU2NywxLjEzNiAgIGMtNC4xODcsMC43NjctOS40NjksMS4wOTItMTUuODQ2LDFjLTYuMzc0LTAuMDg5LTEyLjk5MS0wLjc1Ny0xOS44NDItMS45OTljLTYuODU0LTEuMjMxLTEzLjIyOS00LjA4Ni0xOS4xMy04LjU1OSAgIGMtNS44OTgtNC40NzMtMTAuMDg1LTEwLjMyOC0xMi41Ni0xNy41NTZsLTIuODU1LTYuNTdjLTEuOTAzLTQuMzc0LTQuODk5LTkuMjMzLTguOTkyLTE0LjU1OSAgIGMtNC4wOTMtNS4zMzEtOC4yMzItOC45NDUtMTIuNDE5LTEwLjg0OGwtMS45OTktMS40MzFjLTEuMzMyLTAuOTUxLTIuNTY4LTIuMDk4LTMuNzExLTMuNDI5Yy0xLjE0Mi0xLjMzMS0xLjk5Ny0yLjY2My0yLjU2OC0zLjk5NyAgIGMtMC41NzItMS4zMzUtMC4wOTgtMi40MywxLjQyNy0zLjI4OWMxLjUyNS0wLjg1OSw0LjI4MS0xLjI3Niw4LjI4LTEuMjc2bDUuNzA4LDAuODUzYzMuODA3LDAuNzYzLDguNTE2LDMuMDQyLDE0LjEzMyw2Ljg1MSAgIGM1LjYxNCwzLjgwNiwxMC4yMjksOC43NTQsMTMuODQ2LDE0Ljg0MmM0LjM4LDcuODA2LDkuNjU3LDEzLjc1NCwxNS44NDYsMTcuODQ3YzYuMTg0LDQuMDkzLDEyLjQxOSw2LjEzNiwxOC42OTksNi4xMzYgICBjNi4yOCwwLDExLjcwNC0wLjQ3NiwxNi4yNzQtMS40MjNjNC41NjUtMC45NTIsOC44NDgtMi4zODMsMTIuODQ3LTQuMjg1YzEuNzEzLTEyLjc1OCw2LjM3Ny0yMi41NTksMTMuOTg4LTI5LjQxICAgYy0xMC44NDgtMS4xNC0yMC42MDEtMi44NTctMjkuMjY0LTUuMTRjLTguNjU4LTIuMjg2LTE3LjYwNS01Ljk5Ni0yNi44MzUtMTEuMTRjLTkuMjM1LTUuMTM3LTE2Ljg5Ni0xMS41MTYtMjIuOTg1LTE5LjEyNiAgIGMtNi4wOS03LjYxNC0xMS4wODgtMTcuNjEtMTQuOTg3LTI5Ljk3OWMtMy45MDEtMTIuMzc0LTUuODUyLTI2LjY0OC01Ljg1Mi00Mi44MjZjMC0yMy4wMzUsNy41Mi00Mi42MzcsMjIuNTU3LTU4LjgxNyAgIGMtNy4wNDQtMTcuMzE4LTYuMzc5LTM2LjczMiwxLjk5Ny01OC4yNGM1LjUyLTEuNzE1LDEzLjcwNi0wLjQyOCwyNC41NTQsMy44NTNjMTAuODUsNC4yODMsMTguNzk0LDcuOTUyLDIzLjg0LDEwLjk5NCAgIGM1LjA0NiwzLjA0MSw5LjA4OSw1LjYxOCwxMi4xMzUsNy43MDhjMTcuNzA1LTQuOTQ3LDM1Ljk3Ni03LjQyMSw1NC44MTgtNy40MjFzMzcuMTE3LDIuNDc0LDU0LjgyMyw3LjQyMWwxMC44NDktNi44NDkgICBjNy40MTktNC41NywxNi4xOC04Ljc1OCwyNi4yNjItMTIuNTY1YzEwLjA4OC0zLjgwNSwxNy44MDItNC44NTMsMjMuMTM0LTMuMTM4YzguNTYyLDIxLjUwOSw5LjMyNSw0MC45MjIsMi4yNzksNTguMjQgICBjMTUuMDM2LDE2LjE4LDIyLjU1OSwzNS43ODcsMjIuNTU5LDU4LjgxN2MwLDE2LjE3OC0xLjk1OCwzMC40OTctNS44NTMsNDIuOTY2Yy0zLjksMTIuNDcxLTguOTQxLDIyLjQ1Ny0xNS4xMjUsMjkuOTc5ICAgYy02LjE5MSw3LjUyMS0xMy45MDEsMTMuODUtMjMuMTMxLDE4Ljk4NmMtOS4yMzIsNS4xNC0xOC4xODIsOC44NS0yNi44NCwxMS4xMzZjLTguNjYyLDIuMjg2LTE4LjQxNSw0LjAwNC0yOS4yNjMsNS4xNDYgICBjOS44OTQsOC41NjIsMTQuODQyLDIyLjA3NywxNC44NDIsNDAuNTM5djYwLjIzN2MwLDMuNDIyLDEuMTksNi4yNzksMy41NzIsOC41NjJjMi4zNzksMi4yNzksNi4xMzYsMi45NSwxMS4yNzYsMS45OTUgICBjNDQuMTYzLTE0LjY1Myw4MC4xODUtNDEuMDYyLDEwOC4wNjgtNzkuMjI2YzI3Ljg4LTM4LjE2MSw0MS44MjUtODEuMTI2LDQxLjgyNS0xMjguOTA2ICAgQzQzOC41MzYsMTg0Ljg1MSw0MjguNzI4LDE0OC4xNjgsNDA5LjEzMiwxMTQuNTczeiIvPgo8L2c+CjxkaXYgeG1sbnM9IiIgaWQ9ImRpdlNjcmlwdHNVc2VkIiBzdHlsZT0iZGlzcGxheTogbm9uZSIvPjxzY3JpcHQgeG1sbnM9IiIgaWQ9Imdsb2JhbFZhcnNEZXRlY3Rpb24iIHNyYz0iY2hyb21lLWV4dGVuc2lvbjovL2Nta2RibWZuZGtmZ2VibGRobmtiZmhsbmVlZmRhYWlwL2pzL3dyc19lbnYuanMiLz48L3N2Zz4K" alt="Github"/></span></a></div></div></div></nav><div><div><div class="full-width-image margin-top-0" style="background-image:url(/static/087dd75d70c9d5d4bed3d7bcf792af81/097fa/home-jumbotron.jpg);background-position:top left;background-attachment:fixed"><div style="display:flex;height:150px;line-height:1;justify-content:space-around;align-items:left;flex-direction:column"></div></div><section class="section section--gradient"><div class="container"><div class="section"><div class="columns"><div class="column is-10 is-offset-1"><div class="content"><div class="content"><div class="tile"><h1 class="title">What we do?</h1></div><div class="tile"><h3 class="subtitle">Our mission is to assist clients in the software development process.
-</h3></div></div><div class="columns"><div class="column is-12"><h3 class="has-text-weight-semibold is-size-2">We make the software that drives Your business!</h3><p>We are a team of senior software developers offering services that focus on IoT applications, microservices architectures, and mobile apps. </p></div></div><div class="columns is-multiline"><div class="column is-6"><section class="section"><div class="has-text-centered"><div style="width:240px;display:inline-block"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;border-radius:5px"><div aria-hidden="true" style="width:100%;padding-bottom:75%"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAACS0lEQVQ4y52T7U/aUBSH/UO3iaP3lpfAgLXQgmiEIkhtC/UNXzdmohMjsOkSE4eflhl1S/ZFweH/8ttpa10wmzP78PTk9PY+PSfn3jGz34V53YXR77jxf7jfS64x52Fcd9xknmK134ZOVK8PMPcE5u/2+g5X6MuW+0c47n/F4eAMx8ML9IaXOL29RM/lm5s/pDH4RHvb8D2ekGTGoAv7exvrSw2cGgto6zVUtIrLHKFrs9BLFGfvKHkYX3Zg/vwwWqGb3NDL8z2oSgaN6CusJmS8FgWIoQA4C+AFD2F8IoDxwPgIxZNNWMNDGFcPhMZNF9blPiazKriURXhlD9trMnqtFLJ2Hay6hhALQhTFEUq9N48IL/aRyyoIJCRMGBtYqSext57EQj2DzYaCqaICYboKMRIBYwIY59A+b/1daF60kM9lUUplUNVqsAtx2HociyWOzLSKcL4IHgqDU2WMMeKJwqlkGlrZRiYn0zCi0AopCJNlsEgMPPgSnCpzZI70UaHf8gQJg/UmdGq1+VaBvFiDqJng8SSYINCQmFfhP1umoeRyKkRJQcRuIr2gQW0asBYlpO0aQgYNJsTAo1HwsNM6CR8dynkLWUlGMEKVlBuolFPYWpVQKiaQMCuI5RXE1CS4MgMhRt89ew7thCq8/ZOQDrb54wCFDQPSso70+23kd+soHq1A3VmCvPsOcq0AyZqB5EeicrbjneGHV8+9LU4cfoRFJ9/qH3h31PnzoOPmlrM2wiGt/b7HoxX60nu83Fv36Yxy1bmX+fEX6PJOMVSLZOIAAAAASUVORK5CYII=" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/73455ee9cc16066c789cd4574a7d0739/d32b9/code-screen.png 60w,
-/static/73455ee9cc16066c789cd4574a7d0739/d08e9/code-screen.png 120w,
-/static/73455ee9cc16066c789cd4574a7d0739/1a97c/code-screen.png 240w,
-/static/73455ee9cc16066c789cd4574a7d0739/25c6b/code-screen.png 360w,
-/static/73455ee9cc16066c789cd4574a7d0739/2e79a/code-screen.png 400w" sizes="(max-width: 240px) 100vw, 240px" /><img loading="lazy" sizes="(max-width: 240px) 100vw, 240px" srcset="/static/73455ee9cc16066c789cd4574a7d0739/d32b9/code-screen.png 60w,
-/static/73455ee9cc16066c789cd4574a7d0739/d08e9/code-screen.png 120w,
-/static/73455ee9cc16066c789cd4574a7d0739/1a97c/code-screen.png 240w,
-/static/73455ee9cc16066c789cd4574a7d0739/25c6b/code-screen.png 360w,
-/static/73455ee9cc16066c789cd4574a7d0739/2e79a/code-screen.png 400w" src="/static/73455ee9cc16066c789cd4574a7d0739/1a97c/code-screen.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></div><p>Code is our mother tongue and we love use it to solve problems. Whatever you need a small application  or a large scale distributed architecture, we are the right ones to make it possible!
-</p></section></div><div class="column is-6"><section class="section"><div class="has-text-centered"><div style="width:240px;display:inline-block"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;border-radius:5px"><div aria-hidden="true" style="width:100%;padding-bottom:75%"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsUlEQVQ4y22SzUtVQRjGzyb6G1q0cBcEFUhQq4iKVKhISlsEEX1gpiVFgQRWCGW4Cioiivbt2rW3gtoUQnW9Ymb3eL1dz+fMmTnf9+mdOefa1Vw85z0z887vfeadMfJWCxvVKpXn//7XzeXtCP3fuW7k5WKnsjxHnGZI0hxRkiGME8RJQvNZWTTHZkaUjCwjQIZSCtYigIK1NFDKiKAEJjcyypBSIaqHNMu18tL1GrC9kBJMqXCUabgQEZIWEHEGUauCuy68MIPni7IonSQp9rYNGWqyLRmlWjFBg0BAEI3Nz8J/MQb+9BK85yNwKl8QAPCYRBglOlfB07QwZKgKMW1UxxEhJcQpGJcFjNzYL2+BPzgG9vgc2MOTsJ8Mwf76noABvCACF7GWAitThu4PiYtEV3T9AFwd6/cC/ryegD11Gt70APzpQYqkR6fgTR6H9WYaDuVKMmH7oWYoc0YUFzBVxechLE/A9TicZ9fg3+9Fc7IfjTu9sO72wLnXQ7EPHsm9sQ+Nj+8g6YIc2qNOGNGpDElAP4jhEazpcHKXor64CGukG2z8AJq3D8Ic3Q9zeC/MoW7ULuyCdWUPGgPbsPL2FXwCWg7TfQyJZUiyGdBFqH40bI5Vl8NseqiM9WLp8BbUz3Zh5eIONK/uxsrlnTAHt+PXoa2o9neh9v0bmiwGo70hcSRBDfVRLttgm+zbMkN9roK5ifP4MXwElet9mB09iurNE5gf7cHC+BnUP8/AiQEuY7234JRAUYrRok/V1JOweAzTDbG0bKH608TMh0+Yo7i0vIqaLWCJDC6jflOrGPVftIGiA6ikXAbUYK7hlCzpFr0ANXNZRzVmNM/p0Qv11KJsDfafQ0FvSdvvUEgPlokQpmnqqMbrcuJCohPY1ka3ej7JtdMaAVVU403zSv0FflJQOXApy+cAAAAASUVORK5CYII=" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/4cadbbb69eaf18c4d51101be7bd69d83/d32b9/cloud-icon.png 60w,
-/static/4cadbbb69eaf18c4d51101be7bd69d83/d08e9/cloud-icon.png 120w,
-/static/4cadbbb69eaf18c4d51101be7bd69d83/1a97c/cloud-icon.png 240w,
-/static/4cadbbb69eaf18c4d51101be7bd69d83/25c6b/cloud-icon.png 360w,
-/static/4cadbbb69eaf18c4d51101be7bd69d83/2e79a/cloud-icon.png 400w" sizes="(max-width: 240px) 100vw, 240px" /><img loading="lazy" sizes="(max-width: 240px) 100vw, 240px" srcset="/static/4cadbbb69eaf18c4d51101be7bd69d83/d32b9/cloud-icon.png 60w,
-/static/4cadbbb69eaf18c4d51101be7bd69d83/d08e9/cloud-icon.png 120w,
-/static/4cadbbb69eaf18c4d51101be7bd69d83/1a97c/cloud-icon.png 240w,
-/static/4cadbbb69eaf18c4d51101be7bd69d83/25c6b/cloud-icon.png 360w,
-/static/4cadbbb69eaf18c4d51101be7bd69d83/2e79a/cloud-icon.png 400w" src="/static/4cadbbb69eaf18c4d51101be7bd69d83/1a97c/cloud-icon.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></div><p>We don&#x27;t just write code, we design solutions!  Whether the client needs an improvement on a already existent project or a solution from scratch,  LittleEndian provides all his professionality and expertise to found the best solution.
-</p></section></div><div class="column is-6"><section class="section"><div class="has-text-centered"><div style="width:240px;display:inline-block"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;border-radius:5px"><div aria-hidden="true" style="width:100%;padding-bottom:75%"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAC4jAAAuIwF4pT92AAADxElEQVQ4yz2U2U+cVRiH+Te89toL77wxatJqo0mt6RKrRWOqjUK6xaVSA8FaWzFpqQXEaKW0FDogBEqQbYCwtOzMMMMIw2wsszDMfOt8M8xAax7fGRovTs453znnebff+xVpiomaNNGSBrpikTGeYuo7ZDO7ZDI51v6J4OhzocmZppok5d6OZuGKalS7QwytJ8jIXpXvqrCK8gtNyW8stmIRZj2t+L1L9LT1sjixxC8l56l4/xB9f9hIpXKk5dHMRpxj7Z2csLVzuLkZ25KPrJ4uGCvKe5hM6mzGTVbX3Fy79xkD/Z2UXyin9baNis+P8unVg9z/voy4kmVXNTgzMc/5lhZYCfBXRwvv3rVhqOlClAWgLov4tsquWHmmK4XZjKlgZRms7eB6cSXLDj9xLUUonuKbhWWOXy3h2rkPKLl0ktKHDwWYKYRdlNMtenxhGjxB+v0RDg8v0LK8TuWCl1NjTn5a2cAfDNPzexPDwSgnbZVcbm3jk84BXrxSzYHaO0x5A1iSRyUPxExz0+njw1EHR0fmODvp5o3+Kf70hHihfZhuMaZsbOHqG2Vz26RquJnBqcdY5h4Tq+tEtjTI7JF+Xpiif400v7oDfCzeHBfgyFqMtwdn8UvIBwem8YQT2IMRxmMKIzIPBJNMbCRIJnQMSVdM5quSU7vA89UuAOtc+8ATAuwSj/JAh4DeHJzmN5ePC4+d1Di8lIwvcHp0liaPn0hcxRtNsLC5zcs1tVSPjPFUVPA/sHjMwZHhWXoDEQ70T+MU4OsS+oB/E08kwbqEFtpS2RBQSs1KBBbF3TeYC4eIGjtE5UzP6zAPrHH5KX3i5qupJV7qnhBZLOKTEF/rm6RPgGWTLs6Nz3HbuSJhWgQiUyxH5hlyuaj7+Q5jj8awjMx+UUw1xWo0iUMSnxCBd/k2Ccc19qT6nnCcgHjqjiVxxRLMhBLEYkt8UfcRVe3fMnOvnVdPV3Lo2EWiriCGmdnXYZ4cF3FrMYNdJU1ODpqXI9xwhEhZOSbt0/R2DJKzduXuNr32aoYmHhBaWOFsWT0/Xm/AEKdUca4or25FetQfivPDqTM0VF7BHkjyTttN3mq8RKPbx8q8l78HJtHFa0PL0Ns1yuzgFIrIpbTmAY39T8ikcyhS8UIv69IByZhO1dcV3L9Vz+ymxpGmGt6r/hLbpBNyz0gIbE282BZp3Cqv4VH9XVb1LK9cvMx39Y2FPlfzwP2/zT5UT1jShhY7Ina7P07H4pq0VKpgWU0YhSrm9ykZugxT3ixGFKm8hvmc8x80QfMuHqrl5AAAAABJRU5ErkJggg==" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/36f71a9ca6ab4deb6789e35265b661dd/d32b9/iot-icon.png 60w,
-/static/36f71a9ca6ab4deb6789e35265b661dd/d08e9/iot-icon.png 120w,
-/static/36f71a9ca6ab4deb6789e35265b661dd/1a97c/iot-icon.png 240w,
-/static/36f71a9ca6ab4deb6789e35265b661dd/25c6b/iot-icon.png 360w,
-/static/36f71a9ca6ab4deb6789e35265b661dd/2e79a/iot-icon.png 400w" sizes="(max-width: 240px) 100vw, 240px" /><img loading="lazy" sizes="(max-width: 240px) 100vw, 240px" srcset="/static/36f71a9ca6ab4deb6789e35265b661dd/d32b9/iot-icon.png 60w,
-/static/36f71a9ca6ab4deb6789e35265b661dd/d08e9/iot-icon.png 120w,
-/static/36f71a9ca6ab4deb6789e35265b661dd/1a97c/iot-icon.png 240w,
-/static/36f71a9ca6ab4deb6789e35265b661dd/25c6b/iot-icon.png 360w,
-/static/36f71a9ca6ab4deb6789e35265b661dd/2e79a/iot-icon.png 400w" src="/static/36f71a9ca6ab4deb6789e35265b661dd/1a97c/iot-icon.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></div><p>One of LittleEndian more focused area is IoT.  We address Internet Of Things in a &quot;all inclusive&quot; way, we can asist our clients from the hardware design, to the cloud platform development, deploymet and monitoring. We are a single interface to talk with,  giving to our customers unmatched quality, efficency and cost saving.
-</p></section></div></div><div class="columns"><div class="column is-12 has-text-centered"><a class="btn" href="/projects">See our projects</a></div></div><div class="column is-12"><h3 class="has-text-weight-semibold is-size-2">Latest projects</h3><div class="columns is-multiline"><div class="is-parent column is-6"><article class="tile is-child box notification"><p><a class="title has-text-primary is-size-4" href="/projects/2019-03-13-modbus-mqtt-gateway/">ModBus to MQTT Gateway</a><span> • </span><span class="subtitle is-size-5 is-block">March 13, 2019</span></p><p>ModBus  The Challenge Industry is made of costly devices, often outdated in regards to interacting with cloud, web and mobile technologies. There is a huge value in connecting factory data with the external world and this is a topic where LittleEndian can give big support. The Solution This project is an example of cloud integration for devices, meant to talk in closed networks inside the factory…<br/><br/><a class="button" href="/projects/2019-03-13-modbus-mqtt-gateway/">Keep Reading →</a></p></article></div><div class="is-parent column is-6"><article class="tile is-child box notification"><p><a class="title has-text-primary is-size-4" href="/projects/2018-09-20-smartlighting-solution/">Smart lighting solution</a><span> • </span><span class="subtitle is-size-5 is-block">September 20, 2018</span></p><p>The Challenge LittleEndian was engaged to create a solution creating a device and a platform to monitor and control lighitng system. The solution is an enanchement for the lamps made by the client, those lamps are sold to offices, malls and any other indoor building.
-The challenge was to address some specific issues: alerting on failure compsuntiong monitoring remote control In the starting…<br/><br/><a class="button" href="/projects/2018-09-20-smartlighting-solution/">Keep Reading →</a></p></article></div><div class="is-parent column is-6"><article class="tile is-child box notification"><p><a class="title has-text-primary is-size-4" href="/projects/2018-07-17-astone-telegram-bot-for-auctions/">Astone, the Telegram auctions bot</a><span> • </span><span class="subtitle is-size-5 is-block">July 17, 2018</span></p><p>flavor wheel The Challenge This is a project born from an internal idea, a lot of times was asked us to develop solutions to manage auctions. There are a lot of auctions applications, typically web based, but we wanted to do something innovative, exploiting the power of Telegram, a platform that we appreciate a lot. The Solution We developed this telegram bot as a platform to serve both users…<br/><br/><a class="button" href="/projects/2018-07-17-astone-telegram-bot-for-auctions/">Keep Reading →</a></p></article></div></div></div></div></div></div></div></div></section></div></div><footer class="footer has-background-black has-text-white-ter"><div class="content has-text-centered has-background-black has-text-white-ter"><div class="container has-background-black has-text-white-ter"><div class="columns"><div class="column is-4"><section class="menu"><ul class="menu-list"><li><a aria-current="page" class="navbar-item" href="/">Home</a></li><li><a class="navbar-item" href="/about">About</a></li><li><a class="navbar-item" href="/technologies">Technologies</a></li></ul></section></div><div class="column is-4"><section><ul class="menu-list"><li><a class="navbar-item" href="/projects">Projects</a></li><li><a class="navbar-item" href="/contact">Contact</a></li></ul></section></div><div class="column is-4 social"><a title="facebook" href="https://fb.me/littleendian.it "><img src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RmFjZWJvb2sgaWNvbjwvdGl0bGU+PHBhdGggZD0iTTIyLjY3NiAwSDEuMzI0Qy41OTMgMCAwIC41OTMgMCAxLjMyNHYyMS4zNTJDMCAyMy40MDguNTkzIDI0IDEuMzI0IDI0aDExLjQ5NHYtOS4yOTRIOS42ODl2LTMuNjIxaDMuMTI5VjguNDFjMC0zLjA5OSAxLjg5NC00Ljc4NSA0LjY1OS00Ljc4NSAxLjMyNSAwIDIuNDY0LjA5NyAyLjc5Ni4xNDF2My4yNGgtMS45MjFjLTEuNSAwLTEuNzkyLjcyMS0xLjc5MiAxLjc3MXYyLjMxMWgzLjU4NGwtLjQ2NSAzLjYzSDE2LjU2VjI0aDYuMTE1Yy43MzMgMCAxLjMyNS0uNTkyIDEuMzI1LTEuMzI0VjEuMzI0QzI0IC41OTMgMjMuNDA4IDAgMjIuNjc2IDAiLz48L3N2Zz4=" alt="Facebook" style="width:1em;height:1em"/></a><a title="twitter" href="https://twitter.com/gumino_one/lists/littleendian"><img class="fas fa-lg" src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VHdpdHRlciBpY29uPC90aXRsZT48cGF0aCBkPSJNMjMuOTU0IDQuNTY5Yy0uODg1LjM4OS0xLjgzLjY1NC0yLjgyNS43NzUgMS4wMTQtLjYxMSAxLjc5NC0xLjU3NCAyLjE2My0yLjcyMy0uOTUxLjU1NS0yLjAwNS45NTktMy4xMjcgMS4xODQtLjg5Ni0uOTU5LTIuMTczLTEuNTU5LTMuNTkxLTEuNTU5LTIuNzE3IDAtNC45MiAyLjIwMy00LjkyIDQuOTE3IDAgLjM5LjA0NS43NjUuMTI3IDEuMTI0QzcuNjkxIDguMDk0IDQuMDY2IDYuMTMgMS42NCAzLjE2MWMtLjQyNy43MjItLjY2NiAxLjU2MS0uNjY2IDIuNDc1IDAgMS43MS44NyAzLjIxMyAyLjE4OCA0LjA5Ni0uODA3LS4wMjYtMS41NjYtLjI0OC0yLjIyOC0uNjE2di4wNjFjMCAyLjM4NSAxLjY5MyA0LjM3NCAzLjk0NiA0LjgyNy0uNDEzLjExMS0uODQ5LjE3MS0xLjI5Ni4xNzEtLjMxNCAwLS42MTUtLjAzLS45MTYtLjA4Ni42MzEgMS45NTMgMi40NDUgMy4zNzcgNC42MDQgMy40MTctMS42OCAxLjMxOS0zLjgwOSAyLjEwNS02LjEwMiAyLjEwNS0uMzkgMC0uNzc5LS4wMjMtMS4xNy0uMDY3IDIuMTg5IDEuMzk0IDQuNzY4IDIuMjA5IDcuNTU3IDIuMjA5IDkuMDU0IDAgMTMuOTk5LTcuNDk2IDEzLjk5OS0xMy45ODYgMC0uMjA5IDAtLjQyLS4wMTUtLjYzLjk2MS0uNjg5IDEuOC0xLjU2IDIuNDYtMi41NDhsLS4wNDctLjAyeiIvPjwvc3ZnPg==" alt="Twitter" style="width:1em;height:1em"/></a><a title="github" href="https://github.com/orgs/little-endian-guglielmino/"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDM4LjU0OXB4IiBoZWlnaHQ9IjQzOC41NDlweCIgdmlld0JveD0iMCAwIDQzOC41NDkgNDM4LjU0OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDM4LjU0OSA0MzguNTQ5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQwOS4xMzIsMTE0LjU3M2MtMTkuNjA4LTMzLjU5Ni00Ni4yMDUtNjAuMTk0LTc5Ljc5OC03OS44QzI5NS43MzYsMTUuMTY2LDI1OS4wNTcsNS4zNjUsMjE5LjI3MSw1LjM2NSAgIGMtMzkuNzgxLDAtNzYuNDcyLDkuODA0LTExMC4wNjMsMjkuNDA4Yy0zMy41OTYsMTkuNjA1LTYwLjE5Miw0Ni4yMDQtNzkuOCw3OS44QzkuODAzLDE0OC4xNjgsMCwxODQuODU0LDAsMjI0LjYzICAgYzAsNDcuNzgsMTMuOTQsOTAuNzQ1LDQxLjgyNywxMjguOTA2YzI3Ljg4NCwzOC4xNjQsNjMuOTA2LDY0LjU3MiwxMDguMDYzLDc5LjIyN2M1LjE0LDAuOTU0LDguOTQ1LDAuMjgzLDExLjQxOS0xLjk5NiAgIGMyLjQ3NS0yLjI4MiwzLjcxMS01LjE0LDMuNzExLTguNTYyYzAtMC41NzEtMC4wNDktNS43MDgtMC4xNDQtMTUuNDE3Yy0wLjA5OC05LjcwOS0wLjE0NC0xOC4xNzktMC4xNDQtMjUuNDA2bC02LjU2NywxLjEzNiAgIGMtNC4xODcsMC43NjctOS40NjksMS4wOTItMTUuODQ2LDFjLTYuMzc0LTAuMDg5LTEyLjk5MS0wLjc1Ny0xOS44NDItMS45OTljLTYuODU0LTEuMjMxLTEzLjIyOS00LjA4Ni0xOS4xMy04LjU1OSAgIGMtNS44OTgtNC40NzMtMTAuMDg1LTEwLjMyOC0xMi41Ni0xNy41NTZsLTIuODU1LTYuNTdjLTEuOTAzLTQuMzc0LTQuODk5LTkuMjMzLTguOTkyLTE0LjU1OSAgIGMtNC4wOTMtNS4zMzEtOC4yMzItOC45NDUtMTIuNDE5LTEwLjg0OGwtMS45OTktMS40MzFjLTEuMzMyLTAuOTUxLTIuNTY4LTIuMDk4LTMuNzExLTMuNDI5Yy0xLjE0Mi0xLjMzMS0xLjk5Ny0yLjY2My0yLjU2OC0zLjk5NyAgIGMtMC41NzItMS4zMzUtMC4wOTgtMi40MywxLjQyNy0zLjI4OWMxLjUyNS0wLjg1OSw0LjI4MS0xLjI3Niw4LjI4LTEuMjc2bDUuNzA4LDAuODUzYzMuODA3LDAuNzYzLDguNTE2LDMuMDQyLDE0LjEzMyw2Ljg1MSAgIGM1LjYxNCwzLjgwNiwxMC4yMjksOC43NTQsMTMuODQ2LDE0Ljg0MmM0LjM4LDcuODA2LDkuNjU3LDEzLjc1NCwxNS44NDYsMTcuODQ3YzYuMTg0LDQuMDkzLDEyLjQxOSw2LjEzNiwxOC42OTksNi4xMzYgICBjNi4yOCwwLDExLjcwNC0wLjQ3NiwxNi4yNzQtMS40MjNjNC41NjUtMC45NTIsOC44NDgtMi4zODMsMTIuODQ3LTQuMjg1YzEuNzEzLTEyLjc1OCw2LjM3Ny0yMi41NTksMTMuOTg4LTI5LjQxICAgYy0xMC44NDgtMS4xNC0yMC42MDEtMi44NTctMjkuMjY0LTUuMTRjLTguNjU4LTIuMjg2LTE3LjYwNS01Ljk5Ni0yNi44MzUtMTEuMTRjLTkuMjM1LTUuMTM3LTE2Ljg5Ni0xMS41MTYtMjIuOTg1LTE5LjEyNiAgIGMtNi4wOS03LjYxNC0xMS4wODgtMTcuNjEtMTQuOTg3LTI5Ljk3OWMtMy45MDEtMTIuMzc0LTUuODUyLTI2LjY0OC01Ljg1Mi00Mi44MjZjMC0yMy4wMzUsNy41Mi00Mi42MzcsMjIuNTU3LTU4LjgxNyAgIGMtNy4wNDQtMTcuMzE4LTYuMzc5LTM2LjczMiwxLjk5Ny01OC4yNGM1LjUyLTEuNzE1LDEzLjcwNi0wLjQyOCwyNC41NTQsMy44NTNjMTAuODUsNC4yODMsMTguNzk0LDcuOTUyLDIzLjg0LDEwLjk5NCAgIGM1LjA0NiwzLjA0MSw5LjA4OSw1LjYxOCwxMi4xMzUsNy43MDhjMTcuNzA1LTQuOTQ3LDM1Ljk3Ni03LjQyMSw1NC44MTgtNy40MjFzMzcuMTE3LDIuNDc0LDU0LjgyMyw3LjQyMWwxMC44NDktNi44NDkgICBjNy40MTktNC41NywxNi4xOC04Ljc1OCwyNi4yNjItMTIuNTY1YzEwLjA4OC0zLjgwNSwxNy44MDItNC44NTMsMjMuMTM0LTMuMTM4YzguNTYyLDIxLjUwOSw5LjMyNSw0MC45MjIsMi4yNzksNTguMjQgICBjMTUuMDM2LDE2LjE4LDIyLjU1OSwzNS43ODcsMjIuNTU5LDU4LjgxN2MwLDE2LjE3OC0xLjk1OCwzMC40OTctNS44NTMsNDIuOTY2Yy0zLjksMTIuNDcxLTguOTQxLDIyLjQ1Ny0xNS4xMjUsMjkuOTc5ICAgYy02LjE5MSw3LjUyMS0xMy45MDEsMTMuODUtMjMuMTMxLDE4Ljk4NmMtOS4yMzIsNS4xNC0xOC4xODIsOC44NS0yNi44NCwxMS4xMzZjLTguNjYyLDIuMjg2LTE4LjQxNSw0LjAwNC0yOS4yNjMsNS4xNDYgICBjOS44OTQsOC41NjIsMTQuODQyLDIyLjA3NywxNC44NDIsNDAuNTM5djYwLjIzN2MwLDMuNDIyLDEuMTksNi4yNzksMy41NzIsOC41NjJjMi4zNzksMi4yNzksNi4xMzYsMi45NSwxMS4yNzYsMS45OTUgICBjNDQuMTYzLTE0LjY1Myw4MC4xODUtNDEuMDYyLDEwOC4wNjgtNzkuMjI2YzI3Ljg4LTM4LjE2MSw0MS44MjUtODEuMTI2LDQxLjgyNS0xMjguOTA2ICAgQzQzOC41MzYsMTg0Ljg1MSw0MjguNzI4LDE0OC4xNjgsNDA5LjEzMiwxMTQuNTczeiIvPgo8L2c+CjxkaXYgeG1sbnM9IiIgaWQ9ImRpdlNjcmlwdHNVc2VkIiBzdHlsZT0iZGlzcGxheTogbm9uZSIvPjxzY3JpcHQgeG1sbnM9IiIgaWQ9Imdsb2JhbFZhcnNEZXRlY3Rpb24iIHNyYz0iY2hyb21lLWV4dGVuc2lvbjovL2Nta2RibWZuZGtmZ2VibGRobmtiZmhsbmVlZmRhYWlwL2pzL3dyc19lbnYuanMiLz48L3N2Zz4K" alt="Github" style="width:1em;height:1em"/></a></div></div></div></div><div class="container has-background-black "><div class="columns"><div class="column is-4"><p class="has-text-left is-size-7"><strong>LittleEndian</strong><br/><br/>PI: 12092120018 | Rea &amp; Cciaa: TO - 1263848 <br/>Via Mombello, 1/A - 10044 Pianezza (TO) - ITALY<br/><a href="mailto:info@little-endian.it">info@little-endian.it</a><br/><a href="tel:+390117803557">+39 011 7803557</a></p></div><div class="column is-4"></div><div class="column"><div class="has-text-centered"><img src="/static/littleendian-logo-512891dca667eae0131b546c33430ba0.svg" alt="LittleEndian" style="width:14em;height:10em"/></div></div></div></div></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
-  window.excludeGAPaths=[/^(?:\/preview\/(?:(?!(?:\/|^)\.).)*?)$/,/^(?:\/do\-not\-track\/me\/too\/)$/];
-  function gaOptout(){document.cookie=disableStr+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/',window[disableStr]=!0}var gaProperty='UA-139151093-1',disableStr='ga-disable-'+gaProperty;document.cookie.indexOf(disableStr+'=true')>-1&&(window[disableStr]=!0);
-  if(!(parseInt(navigator.doNotTrack) === 1 || parseInt(window.doNotTrack) === 1 || parseInt(navigator.msDoNotTrack) === 1 || navigator.doNotTrack === "yes")) {
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  }
-  if (typeof ga === "function") {
-    ga('create', 'UA-139151093-1', 'little-endian.it', {});
-      ga('set', 'anonymizeIp', true);
-      
-      
-      
-      
-      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-68425c85b3afead56220.js"],"component---src-pages-404-js":["/component---src-pages-404-js-a0be2bd065916786d461.js"],"component---src-pages-contact-index-js":["/component---src-pages-contact-index-js-00e52e8614fdf07a3790.js"],"component---src-pages-contact-thanks-js":["/component---src-pages-contact-thanks-js-793fe3331ae00a17e0f6.js"],"component---src-pages-projects-index-js":["/component---src-pages-projects-index-js-bdb660b2096a408c4174.js"],"component---src-pages-tags-index-js":["/component---src-pages-tags-index-js-74f0fdc9a74710efbfee.js"],"component---src-pages-work-index-js":["/component---src-pages-work-index-js-200a27d230ccf24995dd.js"],"component---src-templates-about-page-js":["/component---src-templates-about-page-js-adf9c5194a22ba8d1d73.js"],"component---src-templates-index-page-js":["/component---src-templates-index-page-js-6557c5350094fc9c3665.js"],"component---src-templates-project-js":["/component---src-templates-project-js-3167a589afbf2ca71bae.js"],"component---src-templates-tags-js":["/component---src-templates-tags-js-688bbaebb77d5c9f5fcd.js"],"component---src-templates-tech-page-js":["/component---src-templates-tech-page-js-e445f601ef354e459a50.js"]};/*]]>*/</script><script src="/webpack-runtime-07d90d33a6233efadd2e.js" async=""></script><script src="/styles-823ae8103e36ae8a7f9f.js" async=""></script><script src="/app-68425c85b3afead56220.js" async=""></script><script src="/eb2ed0b4cd5cf7f97b5cb8dddc06e52ff24f9682-e108d107f41ff656f28b.js" async=""></script><script src="/component---src-templates-index-page-js-6557c5350094fc9c3665.js" async=""></script><script src="/commons-55bb36824e4c9a6f6247.js" async=""></script><script src="/framework-f2b1673255104281184a.js" async=""></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Little Endian — AI agents, IoT and cloud platforms, engineered properly</title>
+<meta name="description" content="Little Endian is a software engineering studio near Turin, Italy. We build AI agents and LLM workflows, IoT products from firmware to cloud, microservice platforms and cross-platform mobile apps.">
+<link rel="canonical" href="https://www.little-endian.it/">
+<link rel="alternate" hreflang="en" href="https://www.little-endian.it/">
+<link rel="alternate" hreflang="it" href="https://www.little-endian.it/it/">
+<link rel="alternate" hreflang="x-default" href="https://www.little-endian.it/">
+<meta name="theme-color" content="#07080c">
+<meta name="color-scheme" content="dark light">
+<script>/* Apply a saved theme before first paint, so the page never flashes. */
+(function(){try{var t=localStorage.getItem('le-theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute('content',t==='light'?'#ffffff':'#07080c');}}catch(e){}})();</script>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Little Endian">
+<meta property="og:locale" content="en">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:title" content="Little Endian — AI agents, IoT and cloud platforms">
+<meta property="og:description" content="A software engineering studio near Turin. AI agents and LLM workflows, IoT from firmware to cloud, microservice platforms and mobile apps.">
+<meta property="og:url" content="https://www.little-endian.it/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;450;500;550;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Little Endian",
+  "url": "https://www.little-endian.it/",
+  "description": "Software engineering studio building AI agents and LLM workflows, IoT products from firmware to cloud, microservice platforms and cross-platform mobile apps.",
+  "email": "info@little-endian.it",
+  "telephone": "+390117803557",
+  "vatID": "12092120018",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Mombello, 1/A",
+    "postalCode": "10044",
+    "addressLocality": "Pianezza",
+    "addressRegion": "TO",
+    "addressCountry": "IT"
+  },
+  "areaServed": "Worldwide",
+  "knowsAbout": ["AI agents", "Large language models", "OpenAI API", "Internet of Things", "Embedded firmware", "Kubernetes", "Microservices", "Flutter"]
+}
+</script>
+</head>
+<body>
+
+<!-- ============================ HEADER ============================ -->
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="brand" href="/" aria-label="Little Endian — home">
+      <svg class="brand__mark" viewBox="0 0 177 115" fill="currentColor" aria-hidden="true">
+        <rect width="11" height="115"/><rect y="105" width="76" height="10"/>
+        <rect x="97" width="11" height="115"/><rect x="97" width="78" height="10"/>
+        <rect x="97" y="52" width="71" height="9"/><rect x="97" y="105" width="80" height="10"/>
+      </svg>
+      <span class="brand__name">Little&nbsp;Endian</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <ul class="nav__list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#ai">AI</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#stack">Stack</a></li>
+      </ul>
+    </nav>
+
+    <div class="hdr__end">
+      <div class="lang" role="group" aria-label="Language">
+        <a href="/" aria-current="true" hreflang="en">EN</a>
+        <a href="/it/" hreflang="it">IT</a>
+      </div>
+      <a class="btn btn--primary btn--sm" href="#contact">Start a project</a>
+<button class="themetoggle" type="button" data-theme-toggle aria-label="Switch between light and dark theme">
+        <svg class="t-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.2 12H2M22 12h-2.2M6.1 6.1 4.6 4.6M19.4 19.4l-1.5-1.5M17.9 6.1l1.5-1.5M4.6 19.4l1.5-1.5"/></svg>
+        <svg class="t-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.3A8.6 8.6 0 0 1 9.7 3.5a8.6 8.6 0 1 0 10.8 10.8z"/></svg>
+      </button>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+        <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="wrap hero__in">
+    <p class="eyebrow reveal">Software engineering studio &middot; Turin, Italy</p>
+    <h1 class="reveal" data-delay="60">We build the software that <span class="grad">drives your business</span>.</h1>
+    <p class="lede reveal" data-delay="120">Little Endian is a small team of senior engineers. We design and ship AI agents and LLM workflows, connected products from firmware to cloud, and the platforms and apps your customers actually use.</p>
+    <div class="hero__cta reveal" data-delay="180">
+      <a class="btn btn--primary" href="#contact">Start a project
+        <svg class="ico ico--arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn--ghost" href="#work">See our work</a>
+    </div>
+    <ul class="hero__facts reveal" data-delay="240">
+      <li><span class="dot" aria-hidden="true"></span>AI agents &amp; LLM integration</li>
+      <li><span class="dot" aria-hidden="true"></span>IoT from firmware to cloud</li>
+      <li><span class="dot" aria-hidden="true"></span>Three products of our own</li>
+      <li><span class="dot" aria-hidden="true"></span>Senior engineers only</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================ SERVICES ============================ -->
+<section class="section section--alt" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">What we do</p>
+      <h2>We don't just write code. We design solutions.</h2>
+      <p class="lede">Whether you need a focused application or a large distributed architecture, you get one team that owns the whole path — from the idea to the deployment that keeps running.</p>
+    </div>
+
+    <div class="grid grid--3">
+
+      <article class="card reveal">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3v4M9 13h.01M15 13h.01M9.5 16.5h5"/></svg>
+        </div>
+        <h3>AI agents &amp; workflow automation</h3>
+        <p>Agents that use your real tools and data, and unattended workflows that classify, extract, summarise and route — built to be measured, not demoed.</p>
+        <ul class="tags"><li>OpenAI API</li><li>Local models</li><li>RAG</li><li>Evals</li></ul>
+      </article>
+
+      <article class="card reveal" data-delay="70">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.4"/><path d="M12 3v6.6M12 14.4V21M4.2 7.5l5.7 3.3M14.1 13.2l5.7 3.3M19.8 7.5l-5.7 3.3M9.9 13.2l-5.7 3.3"/></svg>
+        </div>
+        <h3>IoT &amp; connected products</h3>
+        <p>End to end, with a single team to talk to: hardware bring-up and firmware, edge computing, device communication, cloud backend, dashboards and monitoring.</p>
+        <ul class="tags"><li>ESP32</li><li>MQTT</li><li>Modbus</li><li>Edge</li></ul>
+      </article>
+
+      <article class="card reveal" data-delay="140">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 18A4.5 4.5 0 0 1 6 9.05a6 6 0 0 1 11.6-1.4A4 4 0 0 1 18 18z"/><path d="M12 11v5M9.8 13.4 12 11l2.2 2.4"/></svg>
+        </div>
+        <h3>Cloud platforms &amp; microservices</h3>
+        <p>Service architectures that scale without surprises: containers, orchestration, CI/CD, observability, and the boring reliability work that keeps the pager quiet.</p>
+        <ul class="tags"><li>Kubernetes</li><li>Docker</li><li>CI/CD</li><li>Node.js</li></ul>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6.5" y="2.5" width="11" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>
+        </div>
+        <h3>Mobile &amp; cross-platform apps</h3>
+        <p>One codebase, iOS and Android, shipped fast. We were early Flutter adopters and run our own apps on it, so we know where the edges are.</p>
+        <ul class="tags"><li>Flutter</li><li>Dart</li><li>iOS</li><li>Android</li></ul>
+      </article>
+
+      <article class="card reveal" data-delay="70">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 3.5 4 9l5.5 5.5"/><path d="M14.5 9.5 20 15l-5.5 5.5"/></svg>
+        </div>
+        <h3>Product engineering, 0&nbsp;&rarr;&nbsp;1</h3>
+        <p>From a rough idea to something people can use: scope, architecture, API design, web frontend and the release pipeline behind it. We have done it for clients and for ourselves.</p>
+        <ul class="tags"><li>React</li><li>APIs</li><li>Python</li><li>TypeScript</li></ul>
+      </article>
+
+      <article class="card reveal" data-delay="140">
+        <div class="card__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 12a8.5 8.5 0 1 1-2.6-6.1"/><path d="M20.8 4v4.3h-4.3"/><path d="M12 8v4.4l3 1.8"/></svg>
+        </div>
+        <h3>Modernisation &amp; support</h3>
+        <p>Inherited a codebase that nobody wants to touch? We take over existing systems for cloud migration, refactoring, performance and security work — and keep supporting what we deliver.</p>
+        <ul class="tags"><li>Migrations</li><li>Refactoring</li><li>Performance</li><li>Security</li></ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ AI ============================ -->
+<section class="section" id="ai">
+  <div class="wrap">
+    <div class="ai">
+      <div>
+        <p class="eyebrow reveal">AI engineering</p>
+        <h2 class="reveal" data-delay="60">AI that <span class="grad">does the work</span>, not just the talking.</h2>
+        <p class="lede reveal" data-delay="110">A chatbot is the easy part. The value is in agents that act on your systems and workflows that run every day without anyone watching. We build those — on hosted APIs, on models you run yourself, or on both.</p>
+
+        <ul class="caps reveal" data-delay="160">
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Autonomous agents &amp; tool use</strong><span>Agents that query your APIs, databases and internal tools, with structured output, retries, and human approval on the steps that matter.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Workflow orchestration</strong><span>Multi-step pipelines triggered by events, queues or schedules — document processing, classification, enrichment, routing — observable from end to end.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>LLM integration with the OpenAI API</strong><span>Function calling, structured outputs, embeddings, vision and speech, wired into products that already exist — with cost and latency kept under control.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Local &amp; self-hosted models</strong><span>Open-weight models running on your own hardware or private cloud, for data that cannot leave the building — and for predictable cost at volume.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Retrieval over your own knowledge</strong><span>Ingestion, chunking, embeddings and vector search, so answers are grounded in your documents and data instead of invented.</span></div>
+          </li>
+          <li>
+            <svg class="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2" opacity=".35"/><path d="M8 12.3l2.7 2.7L16 9.7"/></svg>
+            <div><strong>Evaluation &amp; guardrails</strong><span>Test sets, regression evals, prompt versioning, tracing, and limits on what an agent is allowed to do. We treat prompts as code, because they are.</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="ai__viz reveal" data-delay="100">
+        <svg viewBox="0 0 440 420" role="img" aria-label="Diagram: a trigger feeds an agent loop that reasons with a hosted or local model, calls tools such as APIs, databases and documents, and produces a verified result.">
+          <defs>
+            <linearGradient id="vg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="var(--accent)" stop-opacity=".22"/>
+              <stop offset="1" stop-color="var(--accent-2)" stop-opacity=".07"/>
+            </linearGradient>
+            <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M0 1l8 4-8 4z" fill="var(--accent-2)" opacity=".85"/>
+            </marker>
+          </defs>
+          <g font-family="JetBrains Mono, monospace" font-size="11">
+
+            <!-- trigger -->
+            <rect x="140" y="12" width="160" height="42" rx="11" fill="var(--viz-panel)" stroke="var(--viz-line)"/>
+            <text x="220" y="31" fill="var(--fg)" text-anchor="middle" font-size="11.5">Event · queue · schedule</text>
+            <text x="220" y="45" fill="var(--fg-dim)" text-anchor="middle" font-size="9.5">TRIGGER</text>
+            <path d="M220 54v26" stroke="var(--accent-2)" stroke-opacity=".55" stroke-width="1.4" marker-end="url(#ah)"/>
+
+            <!-- agent core -->
+            <rect x="92" y="84" width="256" height="104" rx="14" fill="url(#vg)" stroke="var(--viz-strong)"/>
+            <text x="110" y="107" fill="var(--viz-head)" font-size="9.5" letter-spacing="1.2">AGENT LOOP</text>
+            <text x="110" y="131" fill="var(--fg)" font-size="14" font-family="Inter Tight, sans-serif" font-weight="550">Plan · act · observe</text>
+            <text x="110" y="153" fill="var(--fg-muted)" font-size="10.5" font-family="Inter Tight, sans-serif">Structured output, retries,</text>
+            <text x="110" y="169" fill="var(--fg-muted)" font-size="10.5" font-family="Inter Tight, sans-serif">human approval where needed</text>
+
+            <!-- model boxes -->
+            <path d="M348 136h34" stroke="var(--accent-2)" stroke-opacity=".45" stroke-width="1.3" stroke-dasharray="3 3"/>
+            <rect x="358" y="96" width="76" height="36" rx="9" fill="var(--viz-bg)" stroke="var(--viz-line)"/>
+            <text x="396" y="112" fill="var(--fg)" text-anchor="middle" font-size="9.5">OpenAI API</text>
+            <text x="396" y="124" fill="var(--fg-dim)" text-anchor="middle" font-size="8.5">hosted</text>
+            <rect x="358" y="140" width="76" height="36" rx="9" fill="var(--viz-bg)" stroke="var(--viz-line)"/>
+            <text x="396" y="156" fill="var(--fg)" text-anchor="middle" font-size="9.5">Local model</text>
+            <text x="396" y="168" fill="var(--fg-dim)" text-anchor="middle" font-size="8.5">self-hosted</text>
+            <path d="M382 114h-34M382 158h-34" stroke="var(--accent-2)" stroke-opacity=".3" stroke-width="1.1"/>
+
+            <!-- tools -->
+            <path d="M220 188v24" stroke="var(--accent-2)" stroke-opacity=".55" stroke-width="1.4" marker-end="url(#ah)"/>
+            <text x="220" y="230" fill="var(--fg-dim)" text-anchor="middle" font-size="9.5" letter-spacing="1.2">TOOLS</text>
+            <g>
+              <rect x="20" y="244" width="124" height="56" rx="11" fill="var(--viz-panel)" stroke="var(--viz-line)"/>
+              <text x="82" y="268" fill="var(--fg)" text-anchor="middle" font-size="10.5">Your APIs</text>
+              <text x="82" y="283" fill="var(--fg-dim)" text-anchor="middle" font-size="9">REST · GraphQL</text>
+
+              <rect x="158" y="244" width="124" height="56" rx="11" fill="var(--viz-panel)" stroke="var(--viz-line)"/>
+              <text x="220" y="268" fill="var(--fg)" text-anchor="middle" font-size="10.5">Databases</text>
+              <text x="220" y="283" fill="var(--fg-dim)" text-anchor="middle" font-size="9">SQL · NoSQL</text>
+
+              <rect x="296" y="244" width="124" height="56" rx="11" fill="var(--viz-panel)" stroke="var(--viz-line)"/>
+              <text x="358" y="268" fill="var(--fg)" text-anchor="middle" font-size="10.5">Documents</text>
+              <text x="358" y="283" fill="var(--fg-dim)" text-anchor="middle" font-size="9">RAG · vectors</text>
+            </g>
+
+            <!-- result -->
+            <path d="M82 300v22h276v-22" stroke="var(--viz-line)" stroke-width="1.2" fill="none"/>
+            <path d="M220 300v22" stroke="var(--viz-line)" stroke-width="1.2"/>
+            <path d="M220 322v26" stroke="var(--accent-2)" stroke-opacity=".55" stroke-width="1.4" marker-end="url(#ah)"/>
+            <rect x="100" y="352" width="240" height="52" rx="12" fill="var(--viz-bg)" stroke="var(--viz-strong)"/>
+            <text x="220" y="374" fill="var(--fg)" text-anchor="middle" font-size="12.5" font-family="Inter Tight, sans-serif" font-weight="550">Verified result · logged · traced</text>
+            <text x="220" y="391" fill="var(--fg-dim)" text-anchor="middle" font-size="9">EVALS · GUARDRAILS · COST BUDGET</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PRODUCTS ============================ -->
+<section class="section section--alt" id="products">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Our own products</p>
+      <h2>We ship our own software too.</h2>
+      <p class="lede">Client work is only half of what we do. We design, build, run and support three consumer products of our own — which is also why we know what production really costs.</p>
+    </div>
+
+    <div class="prod">
+
+      <!-- ---------- Volio ---------- -->
+      <article class="prow prow--volio reveal">
+        <div class="prow__visual">
+          <div class="device">
+            <span class="device__screen">
+              <img src="/assets/img/shot-volio.webp" width="560" height="1271" loading="lazy" decoding="async"
+                   alt="Volio on iPhone: a flight's track drawn on a map, above the pilot's name, route, distance, duration, average speed, maximum altitude and an elevation profile.">
+            </span>
+          </div>
+        </div>
+
+        <div class="prow__body">
+          <div class="prow__head">
+            <span class="prow__icon"><img src="/assets/img/icon-volio.webp" width="192" height="192" loading="lazy" decoding="async" alt="Volio app icon"></span>
+            <div>
+              <p class="prow__kind">Mobile product<span class="pill"><span class="dot" aria-hidden="true"></span>Live</span></p>
+              <h3 class="prow__name">Volio</h3>
+            </div>
+          </div>
+
+          <p class="prow__lede">The social network for aviation. Type in an aircraft registration and Volio reconstructs the flight for you — route, distance, duration, speed and altitude from public ADS&#8209;B data, drawn on a map. <em>No manual entry, ever.</em></p>
+
+          <ul class="prow__feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>ADS&#8209;B auto-import, with departure and arrival pins filled in for you</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Flight cards that combine the track, your photos and the stats</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>A spotter feed that matches photos to tail numbers, published only once the pilot approves</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Public or private per flight, plus an Instagram Stories export</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Verified organisation accounts for flight schools, clubs, operators and brands</span></li>
+          </ul>
+
+          <div class="prow__links">
+            <a class="btn btn--ghost btn--sm" href="https://apps.apple.com/it/app/volio/id6761468707" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.9-3-.8c-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.6 2.3 2.8 2.3 1.1 0 1.6-.7 2.9-.7s1.7.7 2.9.7 2-1.1 2.7-2.2c.9-1.2 1.2-2.4 1.2-2.5 0 0-2.3-.9-2.3-3.6zM14.2 5.9c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.6 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2-.5 2.7-1.3z"/></svg>
+              App Store</a>
+            <a class="btn btn--ghost btn--sm" href="https://play.google.com/store/apps/details?id=com.littleendian.volare" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.8-.5 1.4v16.6c0 .6.2 1.1.5 1.4l.1.1 9.3-9.3v-.2L3.7 2.2l-.1.1zM16.3 15.2 13.3 12.2v-.2l3-3 .1.1 3.6 2c1 .6 1 1.5 0 2.1l-3.7 2zM15.6 15.9 12.5 12.8 3.6 21.7c.3.4.9.4 1.5.1l10.5-5.9M15.6 8.1 5.1 2.2C4.5 1.9 3.9 1.9 3.6 2.3l8.9 8.9 3.1-3.1z"/></svg>
+              Google Play</a>
+            <a class="btn btn--ghost btn--sm" href="https://www.volioapp.it" target="_blank" rel="noopener">volioapp.it
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- GioJoy ---------- -->
+      <article class="prow prow--giojoy reveal">
+        <div class="prow__visual">
+          <div class="device">
+            <span class="device__screen">
+              <img src="/assets/img/shot-giojoy.webp" width="560" height="1217" loading="lazy" decoding="async"
+                   alt="GioJoy on iPhone: a searchable list of upcoming events in Turin, each with its date, title, venue and tags.">
+            </span>
+          </div>
+        </div>
+
+        <div class="prow__body">
+          <div class="prow__head">
+            <span class="prow__icon"><img src="/assets/img/icon-giojoy.webp" width="192" height="192" loading="lazy" decoding="async" alt="GioJoy app icon"></span>
+            <div>
+              <p class="prow__kind">Platform &amp; apps<span class="pill"><span class="dot" aria-hidden="true"></span>Live</span></p>
+              <h3 class="prow__name">GioJoy</h3>
+            </div>
+          </div>
+
+          <p class="prow__lede">An events platform for meeting people offline. GioJoy runs live and online events — sport, dinners, drinks, trekking, theatre — that <em>any member can create</em>, and has grown its community around Turin and its province, with new events every week.</p>
+
+          <ul class="prow__feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Event creation, discovery and sign-up open to every member</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Attendee limits, sign-up management and a photo gallery per event</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Search and filters over what is happening nearby this month</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Native iOS and Android apps on top of the web platform</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Designed to grow city by city, not all at once</span></li>
+          </ul>
+
+          <div class="prow__links">
+            <a class="btn btn--ghost btn--sm" href="https://apps.apple.com/it/app/giojoy/id6760832987" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.9-3-.8c-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.8 1.1 9 .8 1.1 1.6 2.3 2.8 2.3 1.1 0 1.6-.7 2.9-.7s1.7.7 2.9.7 2-1.1 2.7-2.2c.9-1.2 1.2-2.4 1.2-2.5 0 0-2.3-.9-2.3-3.6zM14.2 5.9c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.6 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2-.5 2.7-1.3z"/></svg>
+              App Store</a>
+            <a class="btn btn--ghost btn--sm" href="https://play.google.com/store/apps/details?id=com.giojoy.app" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.3c-.3.3-.5.8-.5 1.4v16.6c0 .6.2 1.1.5 1.4l.1.1 9.3-9.3v-.2L3.7 2.2l-.1.1zM16.3 15.2 13.3 12.2v-.2l3-3 .1.1 3.6 2c1 .6 1 1.5 0 2.1l-3.7 2zM15.6 15.9 12.5 12.8 3.6 21.7c.3.4.9.4 1.5.1l10.5-5.9M15.6 8.1 5.1 2.2C4.5 1.9 3.9 1.9 3.6 2.3l8.9 8.9 3.1-3.1z"/></svg>
+              Google Play</a>
+            <a class="btn btn--ghost btn--sm" href="https://www.giojoy.com" target="_blank" rel="noopener">giojoy.com
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- Workotto ---------- -->
+      <article class="prow prow--workotto reveal">
+        <div class="prow__visual">
+          <div class="device">
+            <span class="device__screen">
+              <img src="/assets/img/shot-workotto.webp" width="560" height="1217" loading="lazy" decoding="async"
+                   alt="Workotto on iPhone: today's workout with its exercise count and duration, a start button, a six-week training volume chart and the last session logged.">
+            </span>
+          </div>
+        </div>
+
+        <div class="prow__body">
+          <div class="prow__head">
+            <span class="prow__icon"><img src="/assets/img/icon-workotto.webp" width="192" height="192" loading="lazy" decoding="async" alt="Workotto app icon"></span>
+            <div>
+              <p class="prow__kind">Mobile product<span class="pill"><span class="dot" aria-hidden="true"></span>In development</span></p>
+              <h3 class="prow__name">Workotto</h3>
+            </div>
+          </div>
+
+          <p class="prow__lede">The training notebook for people who lift. Plan your sheets, log every set at the rack, and watch the numbers move. <em>Entirely offline</em> — no account, no server, nothing leaves the phone.</p>
+
+          <ul class="prow__feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Sheets of up to five colour-coded days, built from straight sets, supersets, circuits and dropsets</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Over 1,300 exercises searchable by name, muscle or equipment — plus your own</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Logging built for the gym: big targets, a number pad, and last session's values in view</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>An automatic rest timer with haptics, and a screen that stays awake while you train</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>Max load, estimated 1RM, weekly volume per muscle group and personal records</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.6l4.5 4.4L19 7.5"/></svg><span>No account, no cloud, no analytics, no ads — your data stays on the device</span></li>
+          </ul>
+
+          <div class="prow__links">
+            <a class="btn btn--ghost btn--sm" href="/workotto-site/">See Workotto
+              <svg class="ico ico--arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <p class="prow__note">Coming soon to the App Store and Google Play.</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ WORK ============================ -->
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Selected work</p>
+      <h2>Projects we delivered for clients.</h2>
+      <p class="lede">A few projects we can talk about publicly. Each one started with a constraint that mattered — a deadline, a margin, a factory that could not be rewired.</p>
+    </div>
+
+    <div class="work">
+
+      <!-- ---- Smart lighting ---- -->
+      <details class="case reveal">
+        <summary>
+          <div>
+            <p class="case__meta"><span>IoT platform</span><span aria-hidden="true">&middot;</span><span>2018</span></p>
+            <h3 class="case__t">Smart lighting platform</h3>
+            <p class="case__d">A device and a cloud platform to monitor and control indoor lighting systems, built with the client's lamp manufacturing business.</p>
+            <ul class="tags"><li>ESP32</li><li>MQTT</li><li>Node.js</li><li>Docker</li><li>React</li><li>Redux</li></ul>
+          </div>
+          <span class="case__toggle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          </span>
+        </summary>
+        <div class="case__body">
+          <h4>The challenge</h4>
+          <p>Our client manufactured lamps sold into offices, shopping centres and other indoor buildings — with no connectivity at all. Maintenance meant sending a team of technicians to each installation on a schedule to look for problems, which was expensive enough to eat visibly into the margin. Meanwhile their own customers were asking for the remote control they had already seen from competitors. Three things had to be solved at once:</p>
+          <ul>
+            <li>alerting on failures, instead of discovering them on a site visit;</li>
+            <li>consumption monitoring precise enough to prove energy efficiency;</li>
+            <li>remote control of the lighting system.</li>
+          </ul>
+          <h4>What we built</h4>
+          <p>Time to market was the hard constraint: customers were already migrating to competitors with smart lighting. We delivered the full stack in parallel.</p>
+          <ul>
+            <li>Firmware for the ESP32 control and power-metering device, with the hardware designed together with the client.</li>
+            <li>An edge computing application on site, so installations keep working when the link does not.</li>
+            <li>A core backend layer implementing the public API and device communication over MQTT.</li>
+            <li>A single-page web application for monitoring, control and reporting.</li>
+          </ul>
+          <h4>The outcome</h4>
+          <p>A complete IoT solution from the device to the cloud platform, which changed how the client's customers run lighting in large offices and malls. Fine-grained consumption data gave them a tangible way to measure energy efficiency and to start doing predictive maintenance. The cost saving in the first year alone covered the entire investment in building the platform.</p>
+          <figure>
+            <img src="/assets/img/ecms-dashboard.png" alt="The monitoring dashboard of the smart lighting platform, showing consumption charts and device status." loading="lazy" decoding="async" width="879" height="595">
+            <figcaption>The monitoring and control dashboard.</figcaption>
+          </figure>
+        </div>
+      </details>
+
+      <!-- ---- Modbus gateway ---- -->
+      <details class="case reveal" data-delay="60">
+        <summary>
+          <div>
+            <p class="case__meta"><span>Industry 4.0</span><span aria-hidden="true">&middot;</span><span>2019</span></p>
+            <h3 class="case__t">Modbus to MQTT gateway</h3>
+            <p class="case__d">An edge gateway that brings legacy factory devices, locked inside closed networks, into the cloud in near real time.</p>
+            <ul class="tags"><li>Python</li><li>Modbus / RS-485</li><li>MQTT</li><li>Raspberry Pi</li><li>Edge computing</li></ul>
+          </div>
+          <span class="case__toggle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          </span>
+        </summary>
+        <div class="case__body">
+          <h4>The challenge</h4>
+          <p>Industry runs on expensive machines that are often decades behind when it comes to talking to cloud, web and mobile systems. The data inside a factory is valuable, but it is stranded: the devices only speak legacy protocols, on local networks, and replacing them is not an option. Connecting that data to the outside world is exactly where we can help.</p>
+          <h4>What we built</h4>
+          <p>A Python application deployed on a Raspberry Pi acting as an <a class="textlink" href="https://en.wikipedia.org/wiki/Edge_computing" target="_blank" rel="noopener">edge computing</a> platform. It talks to Modbus devices over RS&#8209;485 and acts as a gateway to the cloud over MQTT — a standard protocol that integrates with practically anything. Production figures and alerts became available in near real time, from anywhere.</p>
+          <h4>The outcome</h4>
+          <p>The gateway changed what the company could actually control: processes could be watched and reacted to as they happened, not reconstructed afterwards. Because MQTT opened the door to a wide range of platforms, every connected factory optimised its workflow within a short time — a real step forward in efficiency, with no machine replaced.</p>
+          <figure>
+            <img src="/assets/img/modbus-gateway-architecture.png" alt="Architecture diagram: Modbus devices on an RS-485 bus connect to a Raspberry Pi gateway, which publishes to an MQTT broker in the cloud." loading="lazy" decoding="async" width="1792" height="1063">
+            <figcaption>Gateway architecture, from the RS&#8209;485 bus to the cloud broker.</figcaption>
+          </figure>
+        </div>
+      </details>
+
+      <!-- ---- Astone ---- -->
+      <details class="case reveal" data-delay="120">
+        <summary>
+          <div>
+            <p class="case__meta"><span>Product R&amp;D &middot; open source</span><span aria-hidden="true">&middot;</span><span>2018</span></p>
+            <h3 class="case__t">Astone, the Telegram auction bot</h3>
+            <p class="case__d">A real-time auction platform built entirely inside Telegram, now the starting point for a family of custom client projects.</p>
+            <ul class="tags"><li>Node.js</li><li>MongoDB</li><li>Telegram Bot API</li><li>Open source</li></ul>
+          </div>
+          <span class="case__toggle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          </span>
+        </summary>
+        <div class="case__body">
+          <h4>The challenge</h4>
+          <p>This one started as an internal idea. We were asked to build auction systems often enough to notice a pattern: they were all web applications, and they all felt the same. We wanted to try something else and use a platform we like a lot — Telegram — as the whole interface.</p>
+          <h4>What we built</h4>
+          <p>A Telegram bot that serves both sides of an auction: people publishing items and people bidding on them. Users create an auction from inside Telegram itself, and an approval step sits in front of publication to keep out content that would infringe copyright or other rules. Once approved, an auction gets a start date and time; when it opens, the bot recreates the pressure of a real auction room through the chat itself.</p>
+          <h4>The outcome</h4>
+          <p>A proof of concept that has since become the starting point for a number of custom projects, and that we still improve from time to time. The original bot is open source and you can try it live.</p>
+          <p>
+            <a class="textlink" href="https://telegram.me/AstoneBot" target="_blank" rel="noopener">Open @AstoneBot on Telegram
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+            &nbsp;&nbsp;
+            <a class="textlink" href="https://github.com/guglielmino/astone-bot" target="_blank" rel="noopener">Source on GitHub
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </p>
+          <figure>
+            <img src="/assets/img/astone-telegram-bot.png" alt="A Telegram conversation with the Astone bot, showing the auction creation menu." loading="lazy" decoding="async" width="409" height="363">
+            <figcaption>Creating and running an auction without leaving the chat.</figcaption>
+          </figure>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ STACK ============================ -->
+<section class="section section--alt" id="stack">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Technologies</p>
+      <h2>The right tool for the job.</h2>
+      <p class="lede">We are flexible about technology and we have no interest in selling you a stack you don't need. These are the tools we know deeply enough to be accountable for.</p>
+    </div>
+
+    <div class="stack reveal">
+      <div class="stack__group">
+        <h3>AI &amp; LLM</h3>
+        <ul><li>OpenAI API</li><li>Function calling</li><li>Local / open-weight models</li><li>RAG &amp; vector search</li><li>Agent orchestration</li><li>Evals &amp; tracing</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Languages</h3>
+        <ul><li>Python</li><li>TypeScript</li><li>Node.js</li><li>Dart</li><li>C / C++</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Mobile</h3>
+        <ul><li>Flutter</li><li>iOS</li><li>Android</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Web &amp; APIs</h3>
+        <ul><li>React</li><li>Redux</li><li>REST</li><li>GraphQL</li><li>Django</li><li>Flask</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Infrastructure</h3>
+        <ul><li>Docker</li><li>Kubernetes</li><li>CI/CD</li><li>Cloud &amp; hybrid</li><li>Monitoring</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Data</h3>
+        <ul><li>MongoDB</li><li>PostgreSQL</li><li>Redis</li><li>Time series</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>IoT &amp; embedded</h3>
+        <ul><li>ESP32 / ESP8266</li><li>MQTT</li><li>Modbus / RS-485</li><li>Raspberry Pi</li><li>Edge computing</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Ways of working</h3>
+        <ul><li>Code review</li><li>Automated testing</li><li>Shared environments</li><li>Release notes</li></ul>
+      </div>
+      <div class="stack__group">
+        <h3>Also happy to</h3>
+        <ul><li>Join your repo</li><li>Pair with your team</li><li>Audit an existing system</li><li>Teach your developers</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ APPROACH ============================ -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">How we work</p>
+      <h2>Quality software, and nothing to hide.</h2>
+    </div>
+
+    <div class="approach">
+      <article class="approach__item reveal">
+        <h3>Quality, not just output</h3>
+        <p>Plenty of companies make software; only a few make <strong>quality</strong> software. That is the whole goal here. Review, tests, documentation and a deployment you can trust are part of the work, not an upsell.</p>
+      </article>
+      <article class="approach__item reveal" data-delay="70">
+        <h3>Direct and transparent</h3>
+        <p>You talk to the engineers who are building your product. Project status, source code, environments and release notifications are shared with you from the first week, with the tools we use internally.</p>
+      </article>
+      <article class="approach__item reveal" data-delay="140">
+        <h3>Committed to the finish</h3>
+        <p>Our job is to support you from the idea to the deploy, and after it. That holds whether we build from scratch or take over an existing codebase for migration, refactoring, performance or security work.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONTACT ============================ -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="contact reveal">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let's talk about what you're building.</h2>
+        <p class="lede">Tell us what you are trying to do. We will tell you honestly whether we are the right team for it, how we would approach it, and what it would take. No forms that go nowhere — your message reaches us directly.</p>
+        <p style="margin-top:28px">
+          <a class="btn btn--primary" href="mailto:info@little-endian.it?subject=Project%20enquiry">Write to us
+            <svg class="ico ico--arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </p>
+      </div>
+
+      <ul class="contact__list">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3.5 7l8.5 6 8.5-6"/></svg>
+          <div><span class="k">Email</span><a href="mailto:info@little-endian.it">info@little-endian.it</a></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a10 10 0 0 0 5 5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.7 2 2 0 0 1 6.5 3.5z"/></svg>
+          <div><span class="k">Phone</span><a href="tel:+390117803557">+39 011 7803557</a></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21.5s7-5.8 7-11a7 7 0 1 0-14 0c0 5.2 7 11 7 11z"/><circle cx="12" cy="10.2" r="2.6"/></svg>
+          <div><span class="k">Office</span><address>Via Mombello, 1/A<br>10044 Pianezza (TO) &mdash; Italy</address></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5A3.9 3.9 0 0 1 6.6 8c-.1-.3-.4-1.3.1-2.6 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.9 5.1 18.9 5.4 18.9 5.4c.5 1.3.2 2.3.1 2.6a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.8-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+          <div><span class="k">Open source</span><a href="https://github.com/orgs/little-endian-guglielmino/" target="_blank" rel="noopener">github.com/little-endian-guglielmino</a></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__top">
+      <div>
+        <a class="brand" href="/">
+          <svg class="brand__mark" viewBox="0 0 177 115" fill="currentColor" aria-hidden="true">
+        <rect width="11" height="115"/><rect y="105" width="76" height="10"/>
+        <rect x="97" width="11" height="115"/><rect x="97" width="78" height="10"/>
+        <rect x="97" y="52" width="71" height="9"/><rect x="97" y="105" width="80" height="10"/>
+      </svg>
+          <span class="brand__name">Little&nbsp;Endian</span>
+        </a>
+        <p class="ftr__blurb">A software engineering studio near Turin, building AI agents, connected products and the platforms behind them.</p>
+      </div>
+
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#ai">AI engineering</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#stack">Technologies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Products</h4>
+        <ul>
+          <li><a href="https://www.volioapp.it" target="_blank" rel="noopener">Volio</a></li>
+          <li><a href="https://www.giojoy.com" target="_blank" rel="noopener">GioJoy</a></li>
+          <li><a href="/workotto-site/">Workotto</a></li>
+          <li><a href="https://telegram.me/AstoneBot" target="_blank" rel="noopener">Astone bot</a></li>
+        </ul>
+        <h4 style="margin-top:22px">Language</h4>
+        <ul><li><a href="/it/" hreflang="it">Italiano</a></li></ul>
+      </div>
+    </div>
+
+    <div class="ftr__legal">
+      <p>&copy; <span data-year>2026</span> Little Endian &middot; P.IVA 12092120018 &middot; REA/CCIAA TO&#8209;1263848 &middot; Via Mombello 1/A, 10044 Pianezza (TO), Italy</p>
+      <div class="ftr__social">
+        <a href="https://github.com/orgs/little-endian-guglielmino/" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5A3.9 3.9 0 0 1 6.6 8c-.1-.3-.4-1.3.1-2.6 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.9 5.1 18.9 5.4 18.9 5.4c.5 1.3.2 2.3.1 2.6a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.8-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+        </a>
+        <a href="mailto:info@little-endian.it" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3.5 7l8.5 6 8.5-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>
